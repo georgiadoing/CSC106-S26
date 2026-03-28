@@ -1,0 +1,154 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Course: CSC/BIO243: Bioinformatics",
+    "section": "",
+    "text": "Welcome\nThe course website for CSC/BIO243, part of the Union College CS curriculum. Here you can find our weekly schedule, assignmnets and resources.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#announcements",
+    "href": "index.html#announcements",
+    "title": "Course: CSC/BIO243: Bioinformatics",
+    "section": "Announcements",
+    "text": "Announcements\nWelcome! You may want to bookmark this page for the term.\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nMonday 2:00 pm - 3:00 pm\nThursday 2:00 pm - 4:00 pm\nsubject to change, check course website for most up-to-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "Course: CSC/BIO243: Bioinformatics",
+    "section": "Course Description",
+    "text": "Course Description\nBioinformatics is the study of how information technology, computer science principles, and algorithmic techniques have affected and informed the study of biology in the 21st century (and vice versa). Speciﬁcally, the ﬁeld of genomics (the study of the function of genes) has generated a tremendous amount of data to be analyzed. Bioinformatics brings to bear data management and analysis techniques found in the information processing ﬁeld to discover pertinent knowledge in this sea of data that has applications in research and medicine.\nIn this course, you will learn about both biological and computer science concepts, how they interact with each other, and how they are used together to further research in genomics.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/schedule.html",
+    "href": "02-Main/schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Schedule\nWeekly Schedule\ncheck often as things may change",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/schedule.html#schedule",
+    "href": "02-Main/schedule.html#schedule",
+    "title": "Schedule",
+    "section": "",
+    "text": "W\nTOPIC\nReading\nDue\n\n\n\n\n1\nWhat is bioinformatics: what are computers and living cells good at?\nBioinformatics for Dummies (BFD) Ch. 1 & 2\nIntro Survey\n\n\n2\nAlgorithms & the Genetic Code\nThink Python (TP) Ch. 1, 2, 3.4-3.7 & Molecular & Cell Biology (MCFD) Ch. 1, 6, 7\nHW 1, Quiz 1\n\n\n3\nModular Programming & Proteins\nTP Ch. 5.1-5.7, 5.11, 6.1 & MCFD Ch. 16, 17\nHW 2, Quiz 2\n\n\n4\nLoops & Sequencing\nTP Ch. 6.1-6.1, 7.1-7.3, 7.7 & MCFD Ch. 19\nMidterm 1\n\n\n5\nSequence Processing & Disease\nBFD Ch. 7\nHW 3, Quiz 3\n\n\n6\nSequence Alignment\nBFD Ch. 9, TP Ch. 8\nMidterm 2\n\n\n7\nMultiple Sequence Alignment\nBFD Ch. 13\nProject 1 Outline\n\n\n8\nPolymerase Chain Reaction\nBDF Ch. 13, 9 cont.\nProject 1\n\n\n9\nPhylogenetics\nBFD Ch. 13 cont.\nProject 2 Outline\n\n\n10\nGene Prediction\nBFD Ch. 5, pp. 145-153\nProject 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html",
+    "href": "02-Main/resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Runestone (Online Textbook)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#runestone-online-textbook",
+    "href": "02-Main/resources.html#runestone-online-textbook",
+    "title": "Resources",
+    "section": "",
+    "text": "https://runestone.academy/runestone/default/user/register\nyour Union College email\nunioncollege_httlads_winter26 as the course name\nfor review, you may also use the Python course: unioncollege_py4e-int_winter26_da",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#google-colab-pro",
+    "href": "02-Main/resources.html#google-colab-pro",
+    "title": "Resources",
+    "section": "Google Colab Pro",
+    "text": "Google Colab Pro\n\nPro account sign-up: https://colab.research.google.com/signup\nUse your Union email\nA pro account is not needed for this course, just an option Union pays for\nNotes template: https://colab.research.google.com/drive/15rPmKyQKCCbwsdDCpC39o8hczWZ-B5zV?usp=sharing",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#late-token-form",
+    "href": "02-Main/resources.html#late-token-form",
+    "title": "Resources",
+    "section": "Late Token Form",
+    "text": "Late Token Form\n\nThese are for project-related deadlines, not Rosalind problems\nThese can be used for any reason\nThese do not apply to your final deadline\nForm link: https://forms.gle/6W3LrkK4SdhWGSzL7",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#python-style-guide",
+    "href": "02-Main/resources.html#python-style-guide",
+    "title": "Resources",
+    "section": "Python Style Guide",
+    "text": "Python Style Guide\n\nPEP 8\nshould be used in all code cells of Colab notebooks\nLink: https://peps.python.org/pep-0008/",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#links-to-google-drive-folders",
+    "href": "02-Main/resources.html#links-to-google-drive-folders",
+    "title": "Resources",
+    "section": "Links to Google Drive folders",
+    "text": "Links to Google Drive folders\n\nuploading for peer review: https://drive.google.com/drive/folders/1W-FplVDW2b9qG9BDEaPMNEMWRsFrJabE?usp=drive_link",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/syllabus.html",
+    "href": "02-Main/syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Syllabus",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/grading.html",
+    "href": "02-Main/grading.html",
+    "title": "Grading",
+    "section": "",
+    "text": "Grading Scheme\n\n\nCourse Element\nGrade Point Contribution\nNotes\n\n\n\n\nParticipation\n10%\nsee syllabus for details\n\n\nQuizzes\n15%\nwritten\n\n\nMidterms\n20%\nwritten\n\n\nGroup Projects\n40%\ncoding\n\n\nFinal Exam\n15%\nwritten\n\n\n\n\n\n\n\ntotal\n100%\n\n\n\n\n\n\nLetter Grade Scale\n\n\nLetter Grade\nPercent range\n\n\n\n\nA\n93 - 100\n\n\nA-\n90 - 92\n\n\nB+\n87 - 89\n\n\nB\n83 - 86\n\n\nB-\n80 - 82\n\n\nC+\n77 - 79\n\n\nC\n73 - 76\n\n\nC-\n70 - 72\n\n\nD\n60 - 69\n\n\nF\n0 - 59",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Grading</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/csc233_hw00.html",
+    "href": "03-Assignments/csc233_hw00.html",
+    "title": "CSC/BIO 243 HW 01",
+    "section": "",
+    "text": "CSC/BIO 243: Assignment 1",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>CSC/BIO 243 HW 01</span>"
+    ]
+  },
+  {
+    "objectID": "04-Notes/week1.html",
+    "href": "04-Notes/week1.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "Notes from Week 1",
+    "crumbs": [
+      "Weekly Notes",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 1</span>"
+    ]
+  }
+]

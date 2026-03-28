@@ -1,0 +1,8 @@
+---
+title: Week 7
+---
+
+
+## In-class notes
+
+* [In-class notes for Week 7](https://colab.research.google.com/drive/1QwISebefNcRhR8zVbTGlOC8U3P3_RkfZ?usp=sharing)

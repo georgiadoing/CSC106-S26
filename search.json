@@ -1,0 +1,94 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Course: CSC:XXX Course Title\nDocumentation",
+    "section": "",
+    "text": "Welcome\nThe course website for CSCXXX, part of the Union College CS curriculum. Here you can find our wekkly schedule, assignmnets and resources.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#announcements",
+    "href": "index.html#announcements",
+    "title": "Course: CSC:XXX Course Title\nDocumentation",
+    "section": "Announcements",
+    "text": "Announcements\n\nUpcoming due dates\nNext assignments is due …\n\n\nOffice Hours",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "Course: CSC:XXX Course Title\nDocumentation",
+    "section": "Course Description",
+    "text": "Course Description",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/schedule.html",
+    "href": "02-Main/schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Schedule\nWeekly Schedule",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/schedule.html#schedule",
+    "href": "02-Main/schedule.html#schedule",
+    "title": "Schedule",
+    "section": "",
+    "text": "Week\nTopic\nAssignment\n\n\n\n\n1\ntopic…\nassignment…\n\n\n2\ntopic…\nassignment…\n\n\n3\ntopic…\nassignment…\n\n\n4\ntopic…\nassignment…\n\n\n5\ntopic…\nassignment…\n\n\n6\ntopic…\nassignment…\n\n\n7\ntopic…\nassignment…\n\n\n8\ntopic…\nassignment…\n\n\n9\ntopic…\nassignment…\n\n\n10\ntopic…\nassignment…",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/syllabus.html",
+    "href": "02-Main/syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Syllabus",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/grading.html",
+    "href": "02-Main/grading.html",
+    "title": "Grading",
+    "section": "",
+    "text": "Grading Scheme\n\n\nCourse Element\nGrade Point Contribution\nNotes\n\n\n\n\nFinal Exam\nX%\nwritten\n\n\nMidterm Exam\nX%\nwritten\n\n\nProject\nX%\nwritten\n\n\nEngagement\nX%\nwritten\n\n\n\n\n\n\n\ntotal\n100%\n\n\n\n\n\n\nLetter Grade Scale\n\n\nLetter Grade\nPercent range\n\n\n\n\nA\n93 - 100\n\n\nA-\n90 - 92\n\n\nB+\n87 - 89\n\n\nB\n83 - 86\n\n\nB-\n80 - 82\n\n\nC+\n77 - 79\n\n\nC\n73 - 76\n\n\nC-\n70 - 72\n\n\nD\n60 - 69\n\n\nF\n0 - 59",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Grading</span>"
+    ]
+  },
+  {
+    "objectID": "03-Back/ack.html",
+    "href": "03-Back/ack.html",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "Many thanks to the Quarto team for creating this wonderful tool. I am also grateful for the support I got at Quarto’s Discussion Board, specialy:\n\nMickaël Canouil (@mcanouil);\nCharles Teague (@dragonstyle);\nRaniere Silva (@rgaiacs); and\nChristophe Dervieux (@cderv)",
+    "crumbs": [
+      "About",
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "03-Back/colophon.html",
+    "href": "03-Back/colophon.html",
+    "title": "Colophon",
+    "section": "",
+    "text": "Composed in ET Book, a free and open-sopurce typeface designed by Dmitry Krasny, Bonnie Scranton, and Edward Tufte; and Gyre Heros, a fontbased on the URW Nimbus Sans L kindly released by URW++ Design and Development Inc. under GFL. Based on Tufte-Latex and Quarto.",
+    "crumbs": [
+      "About",
+      "Colophon"
+    ]
+  }
+]

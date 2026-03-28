@@ -1,0 +1,59 @@
+---
+title: Final Project Rubric
+---
+
+## Project Details
+
+The goal of the final project is to show off your analytic skills. That means you need to tell me a story using data. There are VERY loose requirements, listed below. Ultimately, I need to see:
+
+- your analytic skills (using Python to get, manipulate, analyze and visualize)
+
+- your story telling skills (how do you use the above, to tell a coherent story using data)
+
+BOTH are equally valued.
+
+Here are some tips / thoughts about specifically what I need to see:
+
+1. I need to see you use Pandas to do things. That means choosing data (or sets of data) that are NOT already pre-processed, and perfectly packaged. I need to see some (but not all) of merging, joining, creating new columns, selecting columns, changing types of data.
+
+2. I need to see visualizations. Don't just graph everything because you can. Show me things that assist with your story.
+
+3. I would like some specific analytics - discussion in combination with analytic approaches - i.e. what features are important for a specific problem, what trends exist in the data and how do you explain them? I'm not looking for you to be right, I'm looking for your story to be well-motivated by data
+
+4. Notice I keep saying 'story'. To tell a story with data REQUIRES that you have a good understanding of the data. To that end I encourage you to choose data, or focus on a problem, about which you ALREADY have some knowledge, or intuition
+
+5. You can find data in all kinds of places on the web. I would focus on CSV data (but you do not have to). You can find useful repositories at data.gov, and kaggle.com, among MANY others. Be cautious about kaggle. I will check to see if others have already performed exactly the analysis you attempt. You certainly don't have to be completely novel, but I would stay away from extremely popular, heavily used data.
+
+6. It is impossible to give minimum or maximum requirements on data size. However, too little data ( less than 500 instances) leaves little chance for finding useful patterns. Too few attributes (columns, less than 5) means that you either need to merge in complementary data, or create your own additional columns. Conversely too much data (in rows or columns) means that you almost certainly have to START reducing the size of your data.
+
+7.  I cannot tell you how long your notebook should be. HOWEVER consider the size of the grade which this notebook is worth. It should be CONSIDERABLY more in depth than a weekly assignment.
+
+8. I am looking to learn. Part of your grade will be in how well YOU take ME on a journey through data which honestly, at the end, you should understand significantly better than I do. Telling that story is a combination of code (show me results, do not comment out the good stuff) and the write up. This IS part essay, part presentation, part coding exercise.
+
+
+## Rubric
+
+* maximum points: 12
+  + 6 for analysis
+  + 4 for storytelling
+  + 2 for reflection
+
+* presentation holds another 3 points
+
+<style>
+{
+  font-size: 10px
+}
+</style>
+
+
+|          | Exceeding expectations (2 pts)                                                                                                                                                 | Arriving at expectations (1.5 pts)                                                                                                                                                 | Not meeting Expectations (0.5 pts pts)                                                                                                |   |
+|----------------------------|---------------------------------------------|-------------------------------------------|----------------------------------|---|
+| Analytical / Mathematic      | Broad use of Pandas such as merging, joining, creating new columns, selecting columns, changing types of data.                                                                 | Some use (1-2 instances) of Pandas such as selecting data or summarizing columns.                                                                                        | No data manipulation using Pandas and/or data sets are pre-processed                                                    |   |
+|                            | Visualizations are chosen carefully in order to convey multiple levels of information.                                                                                         | Some visualizations                                                                                                                                                      | Visualizations don’t contribute to the story in clear ways.                                                             |   |
+|                            | Data selection is from a subject-specific source or is gathered directly.                                                                                                      | Data are from a generalist source but are sufficiently large to support conclusions.                                                                                     | Data has been pre-analyzed or is not extensive enough.                                                                  |   |
+|                            |                                                                                                                                                                                |                                                                                                                                                                          |                                                                                                                         |   |
+| Communication / Storytelling | Writing builds a convincing story by explaining analysis results, providing interpretation and strong evidence that the data is understood.                                    | There’s a story but it is missing pieces: results are partially explain, insufficient evidence that data was understood                                                  | No discernible story; demonstrates a lack of engagement with the data                                                   |   |
+|                            | Analysis asks and answers a clearly motivated question.                                                                                                                        | A question is posed but no clear answer or larger implications are conveyed                                                                                              | No question is posed.       
+|                            |                                                                                                                                                                                |                                                                                                                                                                          |                                                                                                                         |   |                                                                                            |   |
+| Reflective                 | Student thoughtfully identified specific strengths and areas for improvement. A complete picture of the student’s work process with a plan for greater success in the future.  | Student identified strengths or areas for improvement but lacked specificity or sufficient development in either area. Only a partial picture of the student’s process.  | Reflection lacked considerations and areas of improvement, did not incorporate or address suggestions from peer review. |   |

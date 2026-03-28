@@ -1,0 +1,35 @@
+---
+title: CSC233 HW 03
+---
+
+
+# CSC 233: Assignment 3, Due Feb 3 2026, by 10 am
+
+
+## 1. Colab Notebook (4 pts)
+
+1. Make a copy of the Colab Notebook template: 
+
+<https://drive.google.com/file/d/1DtoyxEgtP9b08qOj1X6pk-RCZJfRpC4K/view?usp=sharing>
+
+2. Rename it with your own name: [Name]_CSC233_W26_Assignment3.ipynb
+
+3. Follow the instructions in the Colab Notebook. Be sure to comment your code and add Markdown cells to document your work.
+
+4. Share your notebook with me (doingg@union.edu) as your submission.
+
+## 2. Project Data (1 pts)
+
+1.  In your colab notebook from last week, add a markdown cell with question(s) you want to answer in your project.
+
+This does not mean the question(s) cannot change or evolve, it is just a starting point. Think about how specific or broad you would like your question(s) to be so that your project has interesting implications but is a reasonable amount of work for this course.
+
+
+## 3. Runsestone Reading & Activities (2 pts)
+
+1. Read and complete the activities for chapter 5
+
+Note that there may be some sub-sections that are old review, feel free to skip them. Also feel free to skip any activities that don't seem helpful for this class. You are graded on accessing the pages and attempting activities but do not need to engage with every element for your activity to be clear.
+
+
+

@@ -1,0 +1,31 @@
+---
+title: CSC233 HW 04
+---
+
+
+# CSC 233: Assignment 4, Due Feb 10 2026, by 10 am
+
+
+## 1. Colab Notebook (4 pts)
+
+1. Make a copy of the Colab Notebook template: 
+
+<https://drive.google.com/file/d/19iSeFxZUavS8MxXz0xE_UAJGfRNnJYOQ/view?usp=sharing>
+
+2. Rename it with your own name: [Name]_CSC233_W26_Assignment3.ipynb
+
+3. Follow the instructions in the Colab Notebook. Be sure to comment your code and add Markdown cells to document your work.
+
+4. Share your notebook with me (doingg@union.edu) as your submission.
+
+## 2. Project Question (1 pts)
+
+1.  In your Colab notebook from last week, in response to your feedback from peer review, revise your question. Leave your markdown cell with the question as you posed it last week, but add another cell with a revised question so your drafting/progress is documented.
+
+2. After re-stating your question, add another markdown cell reflecting on the changes you made and why. In what ways has your question improved?
+
+
+
+
+
+

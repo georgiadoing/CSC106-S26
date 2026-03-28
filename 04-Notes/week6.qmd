@@ -1,0 +1,11 @@
+---
+title: Week 6
+---
+
+* Library Guide: <https://libguides.union.edu/DataDiscovery>
+
+* Python Plotting Gallery: <https://python-graph-gallery.com/>
+
+## In-class notes
+
+* [In-class notes for Week 6](https://colab.research.google.com/drive/1qJcey9prgOsVB-yCECqevxuqEE1CC5nD?usp=sharing)

@@ -1,0 +1,39 @@
+---
+title: CSC233 HW 07-Final Project
+---
+
+
+# CSC 233: Assignment 7, Due March 11th at 10 am 2026
+
+* Note this is a **STRICT** deadline so that I have time to read your projects before presentations begin
+* Projects I cannot read before they are presented will recieve points for the **presentation only, not the notebook**
+
+## 1. Project Check-in (3 pts)
+
+1. Meet with me for 15 minutes for a final project practice. Use *either* of the following calendars to schedule a time:
+    + Office Hours: <https://calendar.app.google/rSeYBUayMo1XpsAk9>
+    + Extra times: <https://calendar.app.google/h8EsK88uQiqt9f8j9>
+    + Note: if we have recently met in office hours and you feel totally prepared, you may add a markdown cell to your check-in notebook indicating as such and recieve these points without meeting 
+
+## 2. Final Project - Final Draft (12 pts)
+
+* share with me your final draft of your final project
+* be sure all code is **run** so results are present
+* at the end of your project include a **final reflection**, see the rubric for expectations
+
+## 3. Sign up for a presentation time slot
+
+* [Google Sheet with time slots](https://docs.google.com/spreadsheets/d/1ZYdt-DWFsFLVMjbAgdUsKVvIf3U0pOakLoDiDmNjVKU/edit?usp=sharing)
+
+
+## 4. Add your slide(s) to the common slideshow
+
+* the presentation counts for the final 3 points of the class
+* make sure to add your slide(s) to the correct place in presentation order
+* [CSC233 Google Slides](https://docs.google.com/presentation/d/1VSfmk-AR9mzG1IVtRRy-yvG4BA8JV6C1E8njPZiqD-o/edit?usp=sharing)
+
+
+
+
+
+

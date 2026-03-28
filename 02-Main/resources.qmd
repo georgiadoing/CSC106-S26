@@ -1,0 +1,21 @@
+---
+title: Resources
+---
+
+
+
+
+## Google Colab Pro
+
+* Pro account sign-up: <https://colab.research.google.com/signup>
+* Use your Union email
+* A pro account is not needed for this course, just an option Union pays for
+
+* Notes template: <https://colab.research.google.com/drive/15rPmKyQKCCbwsdDCpC39o8hczWZ-B5zV?usp=sharing>
+
+
+## Python Style Guide 
+
+* PEP 8
+* should be used in all code cells of Colab notebooks
+* Link: <https://peps.python.org/pep-0008/>

@@ -1,0 +1,40 @@
+---
+title: CSC233 HW 06
+---
+
+
+# CSC 233: Assignment 6, Due March 3 2026, by 10 am
+
+
+## 1. Colab Notebook (4 pts)
+
+1. Make a copy of the Colab Notebook template: 
+
+<https://drive.google.com/file/d/1y_SuuBifA5TmxOiWA01_F7wjuRMjXCl4/view?usp=sharing>
+
+2. Rename it with your own name: [Name]_CSC233_W26_Assignment6.ipynb
+
+3. Follow the instructions in the Colab Notebook. Be sure to comment your code and add Markdown cells to document your work.
+
+4. Share your notebook with me (doingg@union.edu) as your submission.
+
+## 2. Project Results (5 pts)
+
+1.  In a **new** Colab notebook, using your previous Colab notebook as an outline/guide, conduct your analyses. Come to class ready for peer review. This will not be the final draft you are graded on, but it will be your **final chance** for feedback from your peers and me before you submit the draft that will be graded.
+
+    + be sure to reference the project rubric as you go
+    + remember to cite your references
+    + also think about which highlights of your results you will use for your presentation
+    + if you are feeling stuck, utilize my office hours, the librarian consultation services (<https://www.union.edu/schaffer-library/ask-a-librarian>), and/or each other! Just include visits/conversations in your refernces.
+
+## 3. Runsestone Reading & Activities (2 pts)
+
+1. Read and complete the activities for chapter 9.
+
+Note that there may be some sub-sections that are old review, feel free to skip them. Also feel free to skip any activities that don't seem helpful for this class. You are graded on accessing the pages and attempting activities but do not need to engage with every element for your activity to be clear.
+
+
+
+
+
+
