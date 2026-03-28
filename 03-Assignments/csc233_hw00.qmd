@@ -1,6 +1,0 @@
----
-title: CSC/BIO 243 HW 01
----
-
-
-# CSC/BIO 243: Assignment 1

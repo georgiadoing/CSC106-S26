@@ -1,6 +1,0 @@
----
-title: Week 2
----
-
-* [In-class Colab Notes for Weeks 1 & 2](https://colab.research.google.com/drive/1PVbbKzUg41cyP5SLkMDJPvE35yx38nDz?usp=sharing)
-

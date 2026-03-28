@@ -1,1 +1,0 @@
-Sitemap: https://georgiadoing.github.io/tufte-quarto/sitemap.xml

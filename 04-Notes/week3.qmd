@@ -1,6 +1,0 @@
----
-title: Week 3
----
-
-* [In-class Colab Notes for Week 3](https://colab.research.google.com/drive/1W-Ivp1OLJYoPzukb8KJGsB9kcudkTuG3?usp=sharing)
-
