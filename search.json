@@ -54,7 +54,57 @@
     "href": "02-Main/resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Google Colab Pro",
+    "text": "Runestone",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#runestone",
+    "href": "02-Main/resources.html#runestone",
+    "title": "Resources",
+    "section": "",
+    "text": "https://runestone.academy/runestone/default/user/register\nyour Union College email\nunioncollege_py4e-int_spring26 as the course name",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#gradescope",
+    "href": "02-Main/resources.html#gradescope",
+    "title": "Resources",
+    "section": "Gradescope",
+    "text": "Gradescope\n\nhttps://www.gradescope.com/courses/1288185\nEntry Code: ZJ8ZRW",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#python",
+    "href": "02-Main/resources.html#python",
+    "title": "Resources",
+    "section": "Python",
+    "text": "Python\n\nPython 3.13.X: the software package needed to write and run Python programs\nhttps://www.anaconda.com/download/success?reg=skipped\nMiniconda works just as great and takes up less space on your computer",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#reeborg",
+    "href": "02-Main/resources.html#reeborg",
+    "title": "Resources",
+    "section": "Reeborg",
+    "text": "Reeborg\n\nReeborg’s World: a useful website for learning some programming basics\nhttps://reeborg.ca/index_en.html",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#pythontutor",
+    "href": "02-Main/resources.html#pythontutor",
+    "title": "Resources",
+    "section": "PythonTutor",
+    "text": "PythonTutor\n\nPython Tutor: a useful website for tracing python code\nhttps://pythontutor.com/visualize.html#mode=edit",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
     ]
@@ -63,8 +113,8 @@
     "objectID": "02-Main/resources.html#google-colab-pro",
     "href": "02-Main/resources.html#google-colab-pro",
     "title": "Resources",
-    "section": "",
-    "text": "Pro account sign-up: https://colab.research.google.com/signup\nUse your Union email\nA pro account is not needed for this course, just an option Union pays for\nNotes template: https://colab.research.google.com/drive/15rPmKyQKCCbwsdDCpC39o8hczWZ-B5zV?usp=sharing",
+    "section": "Google Colab Pro",
+    "text": "Google Colab Pro\n\nPro account sign-up: https://colab.research.google.com/signup\nUse your Union email\nA pro account is not needed for this course, just an option Union pays for\nNotes template: https://colab.research.google.com/drive/15rPmKyQKCCbwsdDCpC39o8hczWZ-B5zV?usp=sharing",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
     ]
