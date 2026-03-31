@@ -172,11 +172,22 @@
     ]
   },
   {
+    "objectID": "03-Assignments/csc233_hw00.html#part-2",
+    "href": "03-Assignments/csc233_hw00.html#part-2",
+    "title": "CSC106 HW 01",
+    "section": "Part 2",
+    "text": "Part 2\n\nPractice Problems for Week 1: HW01 instructions\nStarter code: winding_sandbar.json",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>CSC106 HW 01</span>"
+    ]
+  },
+  {
     "objectID": "04-Notes/week1.html",
     "href": "04-Notes/week1.html",
     "title": "Week 1",
     "section": "",
-    "text": "Notes from Week 1\n\nSeymour Pappert Turtle Documentary",
+    "text": "Notes from Week 1\n\nDay 1 (Mon): Seymour Pappert Turtle Documentary\nDay 2 (Wed):Instructions for First Program Activity\nDay 3 — Lab (Thurs): Reeborg activity: newspaper",
     "crumbs": [
       "Weekly Notes",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 1</span>"
