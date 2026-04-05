@@ -1,0 +1,268 @@
+---
+title: CSC 106 Can Computers Think?, Week 1 Practice Problems
+date: April, 2, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+---
+
+NAME(S):  
+
+
+# Practice Problems for Week 1
+
+Please complete, bring to class and submit on gradescope by end of day on **Monday 4/6/26**.
+
+What you will need to install on your computer (or use on lab computers) to complete this problem set:
+
+-	For part 1, use Reeborg (online)
+-	For part 2, use IDLE and Python. 
+
+There are 3 parts to this problem set: 
+
+-	2 programming activities and a section with check-in questions. 
+
+Submit the following.
+
+-	For parts 1 and 2, on gradescope: All Python and Reeborg code written for this assignment
+-	For part 3, bring to class: Your check-in solutions
+
+You will be submitting the following files:  
+
+- winding_sandbar.py
+- squares.py 
+- colored_squares.py
+- *All the programming files **MUST** be named as instructed*
+
+# Programming Part 1: Paired Programming
+
+***
+
+Paired programming guidelines:
+
+* Roles: 
+    +	driver: has the keyboard and types
+    +	navigator: guides the driver
+
+* Instructions:
+    + You should be talking to each other constantly!
+    +	You should be able to swap roles at any moment.
+    +	Swap roles every 5 to 10 minutes.
+
+***
+0. Do this part on the Reeborg's World website.
+
+1.	Download the starter code from the course website. 
+    * It is one file called: winding_sandbar.json
+
+2.	Import the starter file winding_sandbar.json into Reeborg. 
+    * To import a program, open the “Additional options” menu. 
+    * Then look for the button “Open world from file.”
+    * This should show you an environment that looks as follows
+
+![Reeborg Winding Sandbar](images/reeborg_sandbar.png){ width=350px }
+
+
+3.	Complete the program so that Reeborg picks up the stars, deposits them in the indicated
+spots and finishes at the house. 
+    * As you go, add comments throughout indicating who was the “driver” and who was the “navigator” for each chunk. 
+    * Save your program file (make sure to save the program file and not
+the world file) in a file with the name winding_sandbar.py --- use exactly that file
+name.
+4.	Share the program between pairs.
+    * Use email or Google drive for transfering files more easily than USB drives
+5.	Individually add comments to your code, 
+    * Explain the different steps and including a header comment that names your partner. 
+
+# Programming Part 2: Turtle squares
+
+0. Do this part in IDLE.
+
+1.	Write a Python program that uses the turtle module to draw the following picture: 
+    * Save your program in a file called squares.py
+
+![Turtle Squares](./images/turtle_squares_bw.png){ width=300px }
+
+2.	Now modify your program so that it draws the same three squares, but each of them in a different color: 
+    * Save your program in a file called colored_squares.py
+
+![Turtle Squares in Color](./images/turtle_squares_color.png){ width=300px }
+
+
+
+Don’t forget to add comments to your code to help human readers. 
+
+{{< pagebreak >}}
+
+# Written Questions
+
+1.	Which of the following programs are valid Reeborg programs that cause Reborg to execute a sequence of actions? Circle the valid ones. Explain what’s wrong with the invalid ones.
+(Assume that Reeborg starts in the middle of an empty environment. That is, you don’t have to worry about Reeborg running into walls)
+
+    a. ```
+    Move() 
+    Move()
+    Move()
+```
+
+    b. ```
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+```
+
+    c. ```
+    move()
+    move()
+    turn_right()
+    move()
+```
+
+    d. ```
+    move
+    turn_left
+    move
+    move
+```
+
+2. The following is a function call statement:  
+```turn_left()```
+    a. What is the name of the function being called?
+
+    ………………………………………………………………………………………………
+
+    b. What purpose do the parentheses serve?
+
+    ………………………………………………………………………………………………
+
+    c. What is a function?
+
+    ………………………………………………………………………………………………
+
+    ………………………………………………………………………………………………
+
+    ………………………………………………………………………………………………
+
+    d. What does “calling a function” mean?
+
+    ………………………………………………………………………………………………
+
+    ………………………………………………………………………………………………
+
+    ………………………………………………………………………………………………
+
+
+3.	Consider the following Python program. Draw the pattern that the turtle draws when this program is executed. Also indicate the position and orientation of the turtle after this program has been executed.
+Hint: The turtle starts out in the center of the turtle window, facing to the right
+
+
+```
+import turtle			
+
+turtle.left(90)
+turtle.forward(200)
+turtle.left(180)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+```
+
+\vspace{1em}
+
+4.	Which of the following programs are valid Python programs? Indicate which are valid. For the invalid ones, explain or indicate what is wrong.
+The import statement isn’t shown, but you can assume that the turtle module has been imported.
+
+    a. ```
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.forward(100)
+```
+
+    b. ```
+    turtle.forward
+    turtle.left
+    turtle.forward
+```
+    c. ```
+    turtle.forward(100)
+    turtle.turn_right(90)
+    turtle.forward(100)
+```
+    d. ```
+    turtle.Forward(100)
+    turtle.right(90)
+    turtle.Forward(100)
+```
+
+
+5. Consider the following Python program:
+    a. ```
+        import turtle
+
+        for size in range(10, 60):
+            for side_count in range(0, 4):
+                turtle.forward(size)
+                turtle.left(90)
+        ```
+
+    b. Draw what shape the turtle draws when the inner loop is run once. Your sketch does not have to be to scale (any size is ok).
+
+    \vspace{8em}
+
+    c. Sketch what shape the turtle draws when the whole program is executed.
+
+    \vspace{12em}
+
+
+    d. Explain your answer to (b). How do the outer loop and the inner loop work together to produce the picture you sketched?
+
+        ………………………………………………………………………………………………
+
+        ………………………………………………………………………………………………
+
+        ………………………………………………………………………………………………
+
+        ………………………………………………………………………………………………
+
+        ………………………………………………………………………………………………
+        
+
+
+6. Were you able to complete all of the programming activities (yes/no)?
+
+    ………………………………………………………………………………………………
+
+7. What, if anything, did you struggle with when working on the activities?
+
+    ………………………………………………………………………………………………
+
+    ………………………………………………………………………………………………
+
+    ………………………………………………………………………………………………
+
+    ………………………………………………………………………………………………
+
+
+8. If you managed to overcome the challenges, how did you do it?
+
+    ………………………………………………………………………………………………
+
+    ………………………………………………………………………………………………
+
+    ………………………………………………………………………………………………
+
+    ………………………………………………………………………………………………
