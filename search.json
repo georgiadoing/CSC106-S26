@@ -204,6 +204,17 @@
     ]
   },
   {
+    "objectID": "03-Assignments/csc106_proj1.html",
+    "href": "03-Assignments/csc106_proj1.html",
+    "title": "Project 1",
+    "section": "",
+    "text": "CSC106: Project 1\n\ndue Friday 4/17/26 by class time (1:50 pm)\nyou may use late token(s) for this assignment\n\nIn this project, you’ll write code to draw a variety of shapes using the turtle module. Then, you’ll use this code to compose a picture and to write a program to randomly generate abstract art.\n\nReminder: Programming projects should be done individually. You should not look at anyone else’s code, show your code to anyone else, write code for anyone else, or let someone else write code for you. Consider anyone else to include any form of AI. Please see the syllabus or Nexus for what to do when you need help with your work.\nProjects are graded on program correctness and code composition, including proper commenting\nThis project is 10% of your final grade\nstarter code:\n\nsquare.py\nturtle_shapes.py\ncomputer_art.py",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Project 1</span>"
+    ]
+  },
+  {
     "objectID": "04-Notes/week1.html",
     "href": "04-Notes/week1.html",
     "title": "Week 1",
@@ -211,7 +222,7 @@
     "text": "Notes from Week 1\n\nDay 1 (Mon): Seymour Pappert Turtle Documentary\nDay 2 (Wed): Instructions for First Program Activity\nDay 3 — Lab (Thurs): Reeborg activity: newspaper\n\n\n\nPython Examples\n\nin-class examples from Friday: https://drive.google.com/file/d/1UW3fMha6Ki4dDR_sidpeiV-PDeBSFEPi/view?usp=sharing\n\nexamples of comments, importing turtle, variables and for loops\nalso includes link to turtle library documentation",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 1</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 1</span>"
     ]
   },
   {
@@ -222,7 +233,7 @@
     "text": "In-class activities for week 3\n\nMon: Runestone Ch. 1 review\nWed: More Turtle Drawing\nThurs (lab): Variables and Loops\nFri: Tracing & Memory Diagrams\n\n\n\nKey Resources this week\n\nall also found in Resources page\nPython Documentation\nPython Tutor\n\n\n\nExamples from class\n\nnote code examples from class will be posted after classes, at the end of the week",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 2</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 2</span>"
     ]
   }
 ]
