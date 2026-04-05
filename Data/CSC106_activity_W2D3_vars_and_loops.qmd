@@ -1,0 +1,105 @@
+---
+title: CSC 106 Can Computers Think?, Week 2 Day 3 (Lab)
+date: April, 9, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# Writing programs with variables and loops
+
+1.	Write a program to draw the following pattern:
+
+
+![Turtle Squares](images/sqaures.png){ width=400px }
+
+Note: the turtle doesn’t need to end where it does in the picture.
+
+2.	Write a program to draw a circle without using the built-in `turtle.circle()` function.
+
+3.	Arithmetic in Python: Computer programming languages are often designed to handle arithmetic operations such as addition, subtraction, multiplication, division, and exponents. These operations are performed through the use of operators, several of which are listed below:
+
+$$+, -, *, /, //, \%, **$$
+
+Just as in mathematics, we can use these operators to develop complex mathematical equations. Also like in math in a more general sense, parentheses can be used to give some operations a higher priority than they would normally have. For example:
+
+$$2 + 4 * 2 = 2 + 8 = 10$$
+$$(2 + 4) * 2 = 6 * 2 = 12$$
+
+
+a. Using IDLE, write a Python program that uses each of the operators shown above at least once. Please include comments explaining what it looks like each operator does. You may need to experiment with some of them to figure out exactly what they’re doing.
+
+b. Add print statements to give the same information as the comments so a user will see an explanation of what the program is doing whenever they run it.
+
+4.	Taxes, tips, and totals: Now we’re going to write a program to calculate the tax, tip, and total cost for dining at a restaurant.
+
+a.	Start by assigning the following values to variables:
+    i.	The meal’s subtotal of $35 (example name: `meal_cost`)
+    ii.	The meal’s tax rate of 7% (example name: `tax_rate`)
+    iii.	The meal’s tip rate of 25% (example name: `tip_rate`)
+
+b.	Add code to compute the tax, tip, and total cost for the meal, then use print() to display a receipt that displays the following information:
+```
+RECEIPT
+Sub-total: $35
+Tax:       $2.45
+Tip:       $8.75
+Total:     $46.20
+```
+(Optional) Making the numbers line up nicely.
+Note: for the time being, it’s perfectly acceptable if $46.20 appears as $46.2 instead. 
+
+c.	Change the values assigned to each of the three variables you created. Do the results produced by the altered program make sense? (e.g. is the tip computed correctly?) If not, then figure out why and try to fix it.
+
+d.	Adjust the program so that `meal_cost`, `tax_rate`, and `tip_rate` are assigned from user input (i.e. using the `input()` function and type-casting).
+
+e.	Test the new version of the program to make sure that the receipt information is correct based on the input.
+
+f.	If you haven’t already done so, make sure to add comments explaining how the program works.
+
+g.	Can you display the whole receipt using a single `print()` function call?
+
+
+5.	Circles with Turtle
+
+a.	Write turtle code to create the following:
+
+![Turtle Circles 1](images/circles1.png){ width=400px }
+
+b.	Alter that modify your code so that it makes something like this (notice the circles are now lined up through their center points):
+
+![Turtle Circles 2](images/circles2.png){ width=400px }
+
+c.	Modify the code again to make something like this:
+
+![Turtle Circles 3](images/circles3.png){ width=200px }
+
+6.	Regular n-gons with turtle: Write a program using turtle that does the following:
+
+a.	Ask the user how many sides the shape should have
+b.	Ask the user how long each side should be
+c.	Uses turtle to draw a shape with the specified number of sides, each of the specified length
+
+7.	Rolling Dice
+Write a Python program to “roll a die” by generating a random integer in the range from 1-6 (inclusive) then printing it to the screen.
+
+a. Modify the program to ask the user how many sides the die has.
+b. Modify the program to ask the user how many dice to roll.
+
+# Prompt: What parts of the Python documentation and/or textbook did you look-up and use to complete this assignment? Did you find any functions or syntax particularly useful that we did not go over in class?
