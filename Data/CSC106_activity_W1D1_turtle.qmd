@@ -1,0 +1,32 @@
+---
+title: CSC 106 Can Computers Think?, Week 1 Day 1
+date: March, 30, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# Prompt: 
+
+1. Fold this sheet into thirds & turn it over.
+2. On the back top third, draw something that could have been drawn by the Turtle robot.
+3. On the front, in the top two thirds, write instructions (in English) for the robot to create this drawing.
+4. Swap your instructions with someone who didn't see your drawing.
+5. **Without looking at the drawing on the back** draw a picture following the instructions.
+6. Fold down the top third and see - how closely does your drawing match the original?

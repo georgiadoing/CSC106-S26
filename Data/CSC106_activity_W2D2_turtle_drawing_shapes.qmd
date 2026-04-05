@@ -1,0 +1,84 @@
+---
+title: CSC 106 Can Computers Think?, Week 2 Day 2 
+date: April, 8, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# Writing some programs with Turtle
+
+1.	Open IDLE
+2.	Open a new file through IDLE
+3.	Write a program with the turtle module to draw the following picture. 
+
+
+![Turtle Triangle](images/turt_triangle.png){ width=100px }
+
+
+
+* It may be helpful to remember that, since this is an equilateral triangle, all three interior angles are 60 degrees.
+
+* **Important: Do not save your program as turtle.py**
+    + Any other filenames, e.g. turtle_triangle.py, is fine, but turtle.py will cause things to break. The reason for this is because the Python interpreter will confuse your “turtle.py” with the built-in module, which is also called turtle.
+    + If you’re really curious, you could try to find where Python is installed on your system and look at the .py files for the built-in modules. But be careful not to change anything if you do so. Note: the lab machines may not let you access that part of the file system.
+
+4. Using a new file, write a program using the turtle module to draw the following picture. Before writing any code, take some time to come up with an algorithm first.
+
+![Turtle Star](images/turtle_9_star.png){ width=300px }
+
+# Using the Python Documentation and Pair Programming
+
+* Remember to work together on the same machine, switch between navigator and driver every 5-10 minutes and make sure to share the code you worked on with your partner(s) when you’re done.
+
+1.	Find the links to the Python documentation on course website in the Resources page. We want to look at the “library reference” portion of the documentation. This portion of the documentation describes all of the modules that come built-in with Python as well as all built-in functions, variables, and constants.
+
+    a.	Roughly 2/3 of the way through the page, there’s a link under “Program Frameworks” for “turtle graphics.” Following this link will bring up a page describing all of the built-in functions for the turtle module. 
+        * Can you find another function that does the same thing as “forward”? If so, what is it called? 
+    b.	Some functions have optional parameters. For example, find the description of    the turtle function `circle`. The signature of the function is given as:
+
+        `turtle.circle(radius, extent=None, steps=None)`
+
+        The signature tells you the function name (circle) and how many parameters it takes (3).
+
+        * You can tell that the first parameter is required because it is only listed by its name. 
+        * The second and third parameters are optional because they are listed in the form `<parameter name>=<default value>`. 
+        * If you do not specify a value for those parameters in your function call, Python will use the default value.
+    c.	Now try using turtle to draw a circle that looks something like this:
+
+![Turtle Circle](images/turtle_circle.png){ width=200px }
+
+
+2.	Explore the turtle documentation with your pair programming partner(s) to figure out how to do the following:
+    a.	Make the turtle use a thicker pen
+    b.	Make the turtle draw lines of a different color
+    c.	Make the turtle draw shapes that are filled in with color
+    d.	Make the turtle start/stop drawing
+3.	Now, let’s write a program that shows that you’ve figured out how to do each of the things from 2. You could draw a picture like this:
+
+![Turtle Shapes](images/turtle_shapes_col_fill.png){ width=300px }
+
+Or you could use your imagination to draw something completely different!
+
+Make sure to share the code you worked on with your partner(s) when you’re done.
+
+
+
+
+# Prompt: What is something you "stumbled" upon in the Python documentation that taught you something new beyond what this assignment specifically instructed? Do you think you would have ever thought to look for this new piece of knowledge is you had not come across it while reading?

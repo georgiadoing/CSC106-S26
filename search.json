@@ -90,6 +90,16 @@
     ]
   },
   {
+    "objectID": "02-Main/resources.html#python-documentation",
+    "href": "02-Main/resources.html#python-documentation",
+    "title": "Resources",
+    "section": "Python Documentation",
+    "text": "Python Documentation\n\nOfficial Documentaion: https://docs.python.org/3/index.html\nCan always be used as a reference\nCan be searched for module-specific documentation e.g. turtle",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
     "objectID": "02-Main/resources.html#reeborg",
     "href": "02-Main/resources.html#reeborg",
     "title": "Resources",
@@ -209,7 +219,7 @@
     "href": "04-Notes/week2.html",
     "title": "Week 2",
     "section": "",
-    "text": "In-class Colab Notes for Weeks 1 & 2",
+    "text": "In-class activities for week 3\n\nMon: Runestone Ch. 1 review",
     "crumbs": [
       "Weekly Notes",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 2</span>"

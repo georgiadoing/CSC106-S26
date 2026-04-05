@@ -1,0 +1,54 @@
+---
+title: CSC 106 Can Computers Think?, Week 1 Day 2
+date: April, 1, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME:  
+
+
+# Logging onto the CS Lab Computers 
+
+0. Wake-up or turn-on any lab computer. The machines are networked so you can use any on any day.
+1.	Log on using the default password: the word "union" followed by your ID number e.g., union12345
+2.	Change your password:
+    + open a terminal (Ctrl-Alt-t or right click on the Desktop background and select terminal option)
+    + type: yppasswd
+    + note that you will see nothing as you are typing in your old and new passwords
+3.	Create a folder for this course e.g. named csc106
+4.	Inside this folder create a folder for this week or create folders for this class e.g. named week1 
+5.	Never *ever, ever* work on files in the Downloads folder. 
+    + when you download a file and it ends up in the Downloads folder, move it to your course folder --- only then work with it
+6.	Log off (top right corner of the screen) and on again to test your new password.
+7. **Always log off before leaving the lab.**
+
+
+# Writing your first program
+
+0. Open IDLE
+1. Click “File”, then “New File” in the menu that appears
+2. In the new window that opened click “File” again, then “Save”
+3. Use the save window to navigate to the “week1” folder inside the “csc106” folder that you created
+4. Please type filename: IDLE_demo.py
+5. Click “Save”
+
+6. Inside the window, type the following text:
+    ```print("Hello World!")```
+7. From the menu, Run -> Run Module ... and that’s the first python program of the term!
+
+# Prompt: What is the difference between an *algorithm* and a *program*?

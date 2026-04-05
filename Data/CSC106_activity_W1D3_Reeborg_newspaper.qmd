@@ -1,0 +1,60 @@
+---
+title: CSC 106 Can Computers Think?, Week 1 Day 3 (lab)
+date: April, 2, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# Working with Reeborg
+
+From the course website, under Resources, follow the link to Reeborg's World, or type out the url: <https://reeborg.ca/reeborg.html>
+
+1. Write programs to make Reeborg walk the following patterns. Save each program in separate files.
+
+
+![Reeborg_pattern1](images/reeborg1.png){ width=100px }
+
+![Reeborg_pattern2](images/reeborg2.png){ width=200px }
+
+![Reeborg_pattern3](images/reeborg3.png){ width=200px }
+
+
+* To save, choose “Save program to file” from the “Program in editor” section of the “Additional options” menu.
+* Note: Python programs are saved as text files, but the file names have the extension .py
+
+
+# Delivering a newspaper
+
+1.	Select the Newspaper 0 world and write a program to solve it.
+2.	Add comments to your program to explain what it’s doing (explain your algorithm)
+3.	Save the program in a file called newspaper0.py 
+4.	Submit newspaper0.py on gradescope:
+    a.	Follow link to gradescope (link can be found on the course website)
+    b.	Select Union College from the list of options
+    c.	Login using your Union College credentials
+    d.	Find the assignment: In-class Assignment: Newspaper 0
+    e.	Upload newspaper0.py to the assignment
+
+
+# Sharing your group’s code
+
+1. Make sure to share the code you worked on with your partner(s) when you’re done.
+
+# Prompt: What required the most thinking --- coming up with algorithms, writing programs or communicating in pair programming? Did the activities rquire different *types* and/or *amounts* of thinking?
