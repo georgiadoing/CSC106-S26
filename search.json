@@ -94,7 +94,7 @@
     "href": "02-Main/resources.html#python",
     "title": "Resources",
     "section": "Python",
-    "text": "Python\n\nPython 3.13.X: the software package needed to write and run Python programs\nhttps://www.anaconda.com/download/success?reg=skipped\nMiniconda works just as great and takes up less space on your computer",
+    "text": "Python\n\nPython 3.13.X: the software package needed to write and run Python programs\nhttps://www.anaconda.com/download/success?reg=skipped",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
     ]
