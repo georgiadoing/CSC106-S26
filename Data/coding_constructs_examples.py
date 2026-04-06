@@ -3,7 +3,8 @@
 # 4/6/26
 # coding_constructs.py
 #
-# In-class examples of coding constructs
+# In-class examples of coding constructs to help
+# keep your code DRY (Don't Repeat Yourself)
 ########################################
 
 # Comments
