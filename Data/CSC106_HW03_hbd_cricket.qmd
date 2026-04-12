@@ -1,0 +1,222 @@
+---
+title: CSC 106 Can Computers Think?, Week 3 Practice Problems
+date: April, 13, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+---
+
+NAME:  
+
+
+# Practice Problems for Week 3
+
+Please complete, bring to class (written answers) and submit on gradescope (code) by end of day on **Monday 4/20/26**.
+
+
+
+You will be submitting the following files:  
+
+- birthday.py
+- cricket.py 
+
+# Programming Part 1: Happy Birthday
+
+1.	Download the starter file `birthday.py` from the course website and read the instructions inside before continuing.
+2.	Write a function that “sings” Happy Birthday for someone. The function should take the person’s name as a parameter and then print Happy Birthday in the following format.:
+
+```
+Happy Birthday to you!
+Happy Birthday to you!
+Happy Birthday dear <name>!
+Happy Birthday to you!
+```
+
+3.	Make sure to include appropriate comments.
+4.	Save your program using the filename `birthday.py`.
+
+
+
+# Programming Part 2: Cricket Chirping
+
+1.	Download the starter file `cricket.py` from the course website and read the instructions inside before continuing.
+2.	Amos Dolbaer discovered that, for certain types of crickets, there’s a relationship between the temperature and the rate at which they chirp (<https://en.wikipedia.org/wiki/Dolbear's_law>). More specifically, the relationship is as follows:
+
+$$T = 50 + (N-40)/4$$
+
+where $T$ is the temperature in Farenheight and $N$ the number of chirps per minute.
+
+Write a function that calculates the temperature when given the number of times a cricket chirps in 15 seconds. Your function should do the following:
+
+a. calculate the chirps per minute
+b. calculate the temperature based on chirps per minute
+c. return the temperature
+
+3.	Save your program in a file called `cricket.py`
+
+
+
+{{< pagebreak >}}
+
+# Written Questions
+
+### 1. 1.	Which of the following are valid first lines for a Python function definition? Please explain why the invalid ones are not valid.
+
+a.	`def plus ten (anumber):`
+
+\vspace{6em}
+
+b.	`def double (anumber)`
+
+\vspace{6em}
+
+c.	`def greeting:`
+
+\vspace{6em}
+
+d.	`percentage(total, part):`
+
+\vspace{6em}
+
+e.	`def print_introduction():`
+
+\vspace{6em}
+
+f.	`def move()`
+
+\vspace{6em}
+
+g.	`def goto(x coordinate y coordinate):`
+
+\vspace{6em}
+
+### 2.	Consider the Python program below:
+
+```
+1)	def sum_to_n(n):
+2)	     total = 0
+3)	     for count in range(0, n+1):
+4)	          total += count
+5)	     return total
+6)	 
+7)	print(sum_to_n(6))
+```
+
+
+a. Draw a memory diagram that shows what memory looks like after the Python interpreter has executed line 2.
+
+\vspace{7em}
+
+b. Draw a memory diagram that shows what memory looks like after the Python interpreter has executed line 4 for the first time.
+
+\vspace{7em}
+
+c.	How many times will line 4 be executed in total?
+
+\vspace{2em}
+
+d.	Draw a memory diagram that shows what memory looks like right before the Python interpreter executes line 5.
+
+\vspace{8em}
+
+e.	Draw a memory diagram that shows what memory looks like right after the Python interpreter executes line 7.
+
+\vspace{8em}
+
+
+### 3.	Print or return? 
+
+Consider the following (incomplete) function definitions. 
+
+Given the way these functions are used in the code at the end, complete the dotted lines by either turning them into a statement that **returns** the indicated value or into a statement that **prints** the indicated value. 
+
+Also complete the dotted lines in the code at the end by choosing to either `return` or `print` the value of the variable `a`.
+
+```
+def f1():
+    a = int(input(‘Please input a number: ‘))
+
+    ....................a........
+```
+
+```
+def f2(var):
+        squared = var**2
+
+    ....................squared........
+```
+
+```
+def f3(var):
+
+    ....................var**3........
+```
+
+
+```
+a = 10
+
+....................a........
+f2(a)
+print(f1() + 3)
+a = f3(a) * 5
+
+....................a........
+```
+
+\vspace{2em}
+
+
+f. Assuming that the user input 1 when asked for a number, what will this code print to the screen?
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+
+### 4. Check-in
+
+4.a. Were you able to complete all of the programming activities (yes/no)?
+    
+………………………………………………………………………………………………
+
+4.b. What, if anything, did you struggle with when working on the activities?
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+
+4.c. If you managed to overcome the challenges, how did you do it?
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………

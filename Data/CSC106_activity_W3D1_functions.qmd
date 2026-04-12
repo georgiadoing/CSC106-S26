@@ -1,0 +1,76 @@
+---
+title: CSC 106 Can Computers Think?, Week 1 Day 1 (Mon)
+date: April, 13, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# Writing programs with functions
+
+
+Going forward, you should be looking for opportunities to define functions to make your code less repetitive and easier to read.
+
+In general, a function should:
+
+* handle one clearly defined logical sub-task (i.e. it shouldn’t be your whole program)
+* have a name that describes (or at least hints at) the function’s purpose
+* be accompanied by a comment that describes what the function does in more detail than what can be communicated solely through the function name
+    + (very optional) While completely optional in this course, if you plan to go into software development, it may be useful to look at the page for Python’s Docstring Conventions (<https://peps.python.org/pep-0257/>) to see a common way functions are documented in professional settings. Strictly speaking docstrings are slightly different from traditional comments, but they will be counted as such when used to describe a function in this course.
+
+
+### 1. Reeborg: Picking Up Stars
+
+1.	Download the starter file `stars0.json` from the course website and import it into Reeborg’s World.
+2.	Define a function `collect_row_of_stars` that helps Reeborg pick up all the stars. When you call this function, Reeborg should move across the world and collect all the stars lined up on the bottom row. Use loops as appropriate. You can also define other functions.
+3.	Download the starter file `stars1.json` from the course website and import it into Reeborg’s World.
+4.	Write a program that helps Reeborg pick up all the stars in the world. Can you reuse any function(s) that you defined to solve the previous world?
+5.	Don’t forget to include comments in your code.
+6. Give your program a meaningful name (ending in `.py`) and submit to Gradescope.
+
+
+### 2. Reeborg: Harvesting Carrots
+
+1.	Open the tutorial world Harvest 1.
+2.	Write a program that helps Reeborg harvest the field of carrots.
+    + Before you start writing code, think about different approaches (i.e. walking paths) that Reeborg could use to keep things efficient.
+    + Try to choose a path that allows you to make good use of function definitions and loops to create a program that’s easy to read.
+3.	Don’t forget to include comments in your code.
+4. Give your program a meaningful name (ending in `.py`) and submit to Gradescope.
+
+### 3. Turtle: Flower Meadow
+
+1.	Define a function called `flower` that uses the `turtle` module to draw a flower like this (using whatever color(s) you like):
+
+![Flower](./images/flower1.png){ width=100px }
+
+2.	Use the flower function to draw a flower meadow like in the picture below (use whatever colors you like, but try to use at least three different colors):
+
+![Flowers](./images/flower4.png){ width=300px }
+
+**Note**: you can set the background color using the following function:
+
+
+`turtle.bgcolor(<specified color>)`
+
+3.	Don’t forget to include comments in your code.
+4.	(Optional) Modify your program so that the locations of the flowers are random.
+5.	(Optional) Try to figure out which colors were used in the example pictures. All the colors used can be found on this web page: <http://cs111.wellesley.edu/archive/cs111_fall14/public_html/labs/lab12/tkintercolor.html>
+6. Give your program a meaningful name (ending in `.py`) and submit to Gradescope.
+
