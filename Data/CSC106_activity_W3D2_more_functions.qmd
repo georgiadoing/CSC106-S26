@@ -1,0 +1,76 @@
+---
+title: CSC 106 Can Computers Think?, Week 3 Day 2 (Wed)
+date: April, 15, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+## Reminders for Pair Programming
+
+* Roles: 
+    +	driver (has the keyboard and types) and navigator  (guides the driver)
+
+* Instructions:
+    + You should be talking to each other constantly!
+    + You should be able to swap roles at any moment.
+    + Swap roles every 5 to 10 minutes.
+
+
+##### Dos and Dont's
+
+* Do: Be respectful, Talk to each other, Listen to each other, Explain what you are doing (especially as the driver), Think ahead and make suggestions (especially as the navigator), Switch roles often
+
+* Don’t: Be an overly directive navigator, Grab the driver’s mouse/keyboard, Type silently
+
+
+
+### 1. Practicing functions with input: Is it even?
+
+Define a function called `is_even` that determines whether a given integer is even. 
+
+-	The user inputs a number
+-	The program checks whether the number is even or odd and prints the result
+
+Remember Python’s arithmetic operators:
+
+$$+, -, *, /, //, \%, **$$
+
+What does it mean for a number to be even? Which of the operators will help you test for evenness?
+
+
+### 2. Math facts quiz
+
+Write a function `math_quiz` that helps elementary students practice their math facts. 
+
+-	Ask the user to input two numbers
+-	Ask the user which number is greater
+-	If the user’s answer is right, print : 
+
+`“Correct!”`
+
+-	If the user’s answer is wrong, print: 
+
+`“Incorrect, the correct answer is <the correct value>!” `
+
+-	(Optional) Add the functionality to randomly generate the two numbers instead of user input. Present the numbers to the user, and then wait for the user to input a result. 
+-	(Optional) If the user’s result is correct, the function should print out a message indicating as much. Otherwise, it should say that the answer was incorrect and show the right answer.
+
+**Remember to give your programs meaningful names (ending in `.py`) and submit to Gradescope.**
+
+## Prompt: What is the difference between a function that prints something (or displays something, like drawing in Turtle) and a function that returns a value? Did your above functions return values? Why might you want functions that return things?
