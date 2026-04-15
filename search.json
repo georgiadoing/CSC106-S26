@@ -54,7 +54,17 @@
     "href": "02-Main/resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Runestone",
+    "text": "CS-Ticket",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "02-Main/resources.html#cs-ticket",
+    "href": "02-Main/resources.html#cs-ticket",
+    "title": "Resources",
+    "section": "",
+    "text": "technical help with lab machines\nhttps://csticket.union.edu/",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
     ]
@@ -63,8 +73,8 @@
     "objectID": "02-Main/resources.html#runestone",
     "href": "02-Main/resources.html#runestone",
     "title": "Resources",
-    "section": "",
-    "text": "https://runestone.academy/runestone/default/user/register\nyour Union College email\nunioncollege_py4e-int_spring26 as the course name",
+    "section": "Runestone",
+    "text": "Runestone\n\nhttps://runestone.academy/runestone/default/user/register\nyour Union College email\nunioncollege_py4e-int_spring26 as the course name",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Resources</span>"
     ]
