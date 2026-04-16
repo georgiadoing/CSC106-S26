@@ -174,7 +174,7 @@
     "href": "02-Main/grading.html",
     "title": "Grading",
     "section": "",
-    "text": "Grading Scheme\n\n\nCourse Element\nGrade Point Contribution\nNotes\n\n\n\n\nEngagement\n10%\nsee syllabus for details\n\n\nProgramming Projects\n40%\n4 at 10% each\n\n\nMidterm\n15%\nwritten\n\n\nPractical Exams\n20%\ncoding\n\n\nFinal Exam\n15%\nwritten\n\n\n\n\n\n\n\ntotal\n100%\n\n\n\n\n\n\nLetter Grade Scale\n\n\nLetter Grade\nPercent range\n\n\n\n\nA\n93 - 100\n\n\nA-\n90 - 92\n\n\nB+\n87 - 89\n\n\nB\n83 - 86\n\n\nB-\n80 - 82\n\n\nC+\n77 - 79\n\n\nC\n73 - 76\n\n\nC-\n70 - 72\n\n\nD\n60 - 69\n\n\nF\n0 - 59\n\n\n\n\nNote: You must get a C- or better in order to take any other class that has a CSC-10x prerequisite. Several larger programming projects will be assigned to reinforce the concepts discussed in class and put into practice in homework assignments. All projects can be completed using programming techniques that have been covered in class.\nDo not use techniques that have not been covered in class unless specifically told otherwise. Part of the challenge for each programming project is figuring out how to complete the assignment using only the tools provided in the course up to that point.",
+    "text": "Grading Scheme\n\n\n\n\n\n\n\nCourse Element\nGrade Point Contribution\nNotes\n\n\n\n\nEngagement\n10%\nwritten answers to in-class or HW assignments, collected and scanned, 0.25% per day\n\n\nProgramming Projects\n40%\n4 at 10% each\n\n\nMidterm\n15%\nwritten\n\n\nPractical Exams\n20%\ncoding\n\n\nFinal Exam\n15%\nwritten\n\n\n\n\n\n\n\ntotal\n100%\n\n\n\n\n\n\nLetter Grade Scale\n\n\nLetter Grade\nPercent range\n\n\n\n\nA\n93 - 100\n\n\nA-\n90 - 92\n\n\nB+\n87 - 89\n\n\nB\n83 - 86\n\n\nB-\n80 - 82\n\n\nC+\n77 - 79\n\n\nC\n73 - 76\n\n\nC-\n70 - 72\n\n\nD\n60 - 69\n\n\nF\n0 - 59\n\n\n\n\nNote: You must get a C- or better in order to take any other class that has a CSC-10x prerequisite. Several larger programming projects will be assigned to reinforce the concepts discussed in class and put into practice in homework assignments. All projects can be completed using programming techniques that have been covered in class.\nDo not use techniques that have not been covered in class unless specifically told otherwise. Part of the challenge for each programming project is figuring out how to complete the assignment using only the tools provided in the course up to that point.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Grading</span>"
     ]
@@ -184,7 +184,7 @@
     "href": "03-Assignments/csc106_hw01.html",
     "title": "HW 01",
     "section": "",
-    "text": "CSC106: Assignment 1",
+    "text": "CSC106: Assignment 1 (0.25 pts)",
     "crumbs": [
       "Assignments",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>HW 01</span>"
@@ -206,7 +206,7 @@
     "href": "03-Assignments/csc106_hw01.html#part-2",
     "title": "HW 01",
     "section": "Part 2",
-    "text": "Part 2\n\nPractice Problems for Week 1: HW01 instructions\nStarter code: winding_sandbar.json\nSubmit code on Gradescope, bring written answers to class\nGraded on effort/completion",
+    "text": "Part 2\n\nPractice Problems for Week 1: HW01 instructions\nStarter code: winding_sandbar.json\nSubmit code on Gradescope\nbring written answers to class (0.25 engagement points awarded on these)\nGraded on effort/completion",
     "crumbs": [
       "Assignments",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>HW 01</span>"
