@@ -164,7 +164,7 @@
     "href": "02-Main/syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Syllabus",
+    "text": "Syllabus\n\ncheck for updates!",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Syllabus</span>"
     ]
@@ -174,7 +174,7 @@
     "href": "02-Main/grading.html",
     "title": "Grading",
     "section": "",
-    "text": "Grading Scheme\n\n\n\n\n\n\n\nCourse Element\nGrade Point Contribution\nNotes\n\n\n\n\nEngagement\n10%\nwritten answers to in-class or HW assignments, collected and scanned, 0.25% per day\n\n\nProgramming Projects\n40%\n4 at 10% each\n\n\nMidterm\n15%\nwritten\n\n\nPractical Exams\n20%\ncoding\n\n\nFinal Exam\n15%\nwritten\n\n\n\n\n\n\n\ntotal\n100%\n\n\n\n\n\n\nLetter Grade Scale\n\n\nLetter Grade\nPercent range\n\n\n\n\nA\n93 - 100\n\n\nA-\n90 - 92\n\n\nB+\n87 - 89\n\n\nB\n83 - 86\n\n\nB-\n80 - 82\n\n\nC+\n77 - 79\n\n\nC\n73 - 76\n\n\nC-\n70 - 72\n\n\nD\n60 - 69\n\n\nF\n0 - 59\n\n\n\n\nNote: You must get a C- or better in order to take any other class that has a CSC-10x prerequisite. Several larger programming projects will be assigned to reinforce the concepts discussed in class and put into practice in homework assignments. All projects can be completed using programming techniques that have been covered in class.\nDo not use techniques that have not been covered in class unless specifically told otherwise. Part of the challenge for each programming project is figuring out how to complete the assignment using only the tools provided in the course up to that point.",
+    "text": "Grading Scheme\n\n\nCourse Element\nGrade Point Contribution\nNotes\n\n\n\n\nEngagement\n10%\nwritten answers collected and scanned, 0.25% per activity: itemized list\n\n\nProgramming Projects\n40%\n4 at 10% each\n\n\nMidterm\n15%\nwritten\n\n\nPractical Exams\n20%\ncoding & written\n\n\nFinal Exam\n15%\nwritten\n\n\n\n\n\n\n\ntotal\n100%\n\n\n\n\n\n\nLetter Grade Scale\n\n\nLetter Grade\nPercent range\n\n\n\n\nA\n93 - 100\n\n\nA-\n90 - 92\n\n\nB+\n87 - 89\n\n\nB\n83 - 86\n\n\nB-\n80 - 82\n\n\nC+\n77 - 79\n\n\nC\n73 - 76\n\n\nC-\n70 - 72\n\n\nD\n60 - 69\n\n\nF\n0 - 59\n\n\n\n\nNote: You must get a C- or better in order to take any other class that has a CSC-10x prerequisite. Several larger programming projects will be assigned to reinforce the concepts discussed in class and put into practice in homework assignments. All projects can be completed using programming techniques that have been covered in class.\nDo not use techniques that have not been covered in class unless specifically told otherwise. Part of the challenge for each programming project is figuring out how to complete the assignment using only the tools provided in the course up to that point.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Grading</span>"
     ]
@@ -272,7 +272,7 @@
     "href": "04-Notes/week3.html",
     "title": "Week 3",
     "section": "",
-    "text": "In-class activities for week 3\n\nMon: Practice with functions\n\nstarter code: stars0.json\nstarter code: stars1.json\n\nWed: More Practice with functions & input\nThurs (lab): Functions lab\n\nstarter code: house.py",
+    "text": "In-class activities for week 3\n\nMon: Practice with functions\n\nstarter code: stars0.json\nstarter code: stars1.json\n\nWed: More Practice with functions & input\nThurs (lab): Functions lab\n\nstarter code: house.py\n\nFri: Study Questions",
     "crumbs": [
       "Weekly Notes",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Week 3</span>"
