@@ -1,6 +1,6 @@
 ---
-title: CSC 106 Can Computers Think?, Week 1 Day 1 (Mon)
-date: April, 19, 2026
+title: CSC 106 Can Computers Think?, Week 1 Day 1 (Mon) (0.25 pts for engagement)
+date: April, 20, 2026
 eval: true
 format: 
     pdf:
@@ -26,12 +26,12 @@ NAME(S):
 
 ## Begin the following as paired-programming in class, but be sure to individually finish any problems you don't get to in order to be prepared for the practical exam
 
+* hand in written answers of 0.25 engagement points (check website for last date accepted for credit)
+
 ## Reminders for Pair Programming
 
-* Roles: 
-    +	driver (has the keyboard and types) and navigator  (guides the driver)
-
 * Instructions:
+    +	driver (has the keyboard and types) and navigator  (guides the driver)
     + You should be talking to each other constantly!
     + You should be able to swap roles at any moment.
     + Swap roles every 5 to 10 minutes.
@@ -40,14 +40,13 @@ NAME(S):
 
 * Conditionals (Runestone Ch. 4)
 * Comparison Operators (Runestone Ch. 2)
-* Functions (Runestone Ch. 5)
 * Reeborg (<https://reeborg.ca/docs/en/reference/index.html>)
 
 
 
 All of our work with conditionals thus far has only required `if` and `else` statements (where we only check whether a single condition is `True` or `False`). But in class, we’ve discussed elif statements, which can be used to distinguish between several conditional outcomes. For example, we can check whether a number `x` is `> 0`, `< 0`, or otherwise (`else`) equal to `0`.
 
-In this part of today’s exercise, we’re going to utilize `elif` statements to account for more than two possible outcomes. Recall that "elif" is a contraction of "else" and "if" and that many other programming languages require the use of else if instead of the contracted form. You can have as many `elif` branches as you need.
+In today’s exercise, we’re going to utilize `elif` statements to account for more than two possible outcomes. Recall that "elif" is a contraction of "else" and "if" and that many other programming languages require the use of `else if` instead of the contracted form. You can have as many `elif` branches as you need.
 
 
 ## Walk Through Field
@@ -59,12 +58,20 @@ In this part of today’s exercise, we’re going to utilize `elif` statements t
     b.	put any fallen stars back into the sky
     c.	perform a dance (turn 360 degrees) for each daisy
 
-Here are before and after pictures for Field 0: 
+Below are before and after pictures for Field 0. 
 
+
+::: {#fig-fields layout-ncol=2}
 
 ![Field Before](./images/field_before.png){ width=300px }
 
 ![Field After](./images/field_after.png){ width=300px }
+
+:::
+
+
+
+
 
 4.	Write a program that accomplishes these goals for both worlds.
 
@@ -80,20 +87,20 @@ In Python, logical operators allow you to combine two conditions into a single, 
 `<condition> or <condition>` is `True` if at least one of the conditions is `True`.
 `not <condition>` is `True` the condition is `False`.
 
-1.	Download the Harvests folder (or its contents) from the course website and import each json file into Reeborg.
+1.	Download the Harvests folder from the course website and import each json file into Reeborg.
 2.	Find `harvest1.py` from the folder and copy the code into Reeborg.
 3.	Open the world Harvest 1 (from Reeborg’s “introduction” worlds).
 4.	Run the code from `harvest1.py` and make sure you understand what it’s doing.
-5.	Choose the world `harvest1a.json` (which you should have downloaded with the folder). You should notice that there are some holes in the field. Adapt the provided code so that Reeborg will harvest all of the carrots.
+5.	Choose the world `harvest1a.json` (from the folder). You should notice that there are some holes in the field. Adapt the provided code so that Reeborg will harvest all of the carrots.
 
 Note: the remaining portions also use worlds based on the downloaded files.
 Hint: you should only have to change a small portion of the code for this and each subsequent problem.
 
-6.	Choose the world `harvest1b.json`.  Adapt the code so that Reeborg will plant carrots in the empty spots of the field.
-7.	Choose the world `harvest1c.json`. This time, Reeborg is carrying an infinite supply of carrots. Adapt the code so that Reeborg plants carrots in the gaps in the field.
-8.	Choose the world `harvest5.json`. Reeborg’s goal is now to pick all of the flowers (daisies and tulips).
-9.	Choose the world `harvest7.json`. This time, Reeborg should pick everything except for the smiley tokens (Reeborg knows these as “token”).
-10.	Choose the world `harvest8.json`. This time, Reeborg should pick everything except for the flowers (daisies and tulips again).
+6.	In the world `harvest1b.json`.  Adapt the code so that Reeborg will plant carrots in the empty spots.
+7.	In the world `harvest1c.json`, Reeborg is carrying an infinite supply of carrots. Adapt the code so that Reeborg plants carrots in the gaps in the field.
+8.	In the world `harvest5.json`, Reeborg’s goal is to pick all of the flowers (daisies and tulips).
+9.	In the world `harvest7.json`, Reeborg should pick everything except for the smiley tokens (Reeborg knows these as “token”).
+10.	In the world `harvest8.json`, Reeborg should pick everything except the flowers (daisies and tulips).
 
 
 # Prompt: What is a benefit of being able to use multi-branch conditionals over simple "if" or "if..else.." statements? Give an example of how using a multi-branch statement may make your code more DRY.
