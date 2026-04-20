@@ -24,6 +24,18 @@ NAME(S):
 
 # Multi-branch if statements
 
+## Begin the following as paired-programming in class, but be sure to individually finish any problems you don't get to in order to be prepared for the practical exam
+
+## Reminders for Pair Programming
+
+* Roles: 
+    +	driver (has the keyboard and types) and navigator  (guides the driver)
+
+* Instructions:
+    + You should be talking to each other constantly!
+    + You should be able to swap roles at any moment.
+    + Swap roles every 5 to 10 minutes.
+
 ### Learning goals / relevent topics
 
 * Conditionals (Runestone Ch. 4)
