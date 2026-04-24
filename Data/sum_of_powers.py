@@ -1,15 +1,7 @@
-# Kristina Striegnitz
-#
-# Calculate the sum of the first n integers raised to a given power.
+# Replace this comment with an appropriate header comment.
 
-def sum_of_powers(power, n):
-    """Sum up the first n integers raised to the given power.
-    E.g. sum_of_powers(2, 5) -> 55 (1 + 4 + 9 + 16 + 25)
-    """
-    sum = 0
-    for i in range(1, n+1):
-        sum += i**power
-    return sum
+# Replace this comment with your function definition.
+
     
 
 ### DO NOT DELETE THIS LINE: beg testing
