@@ -1,0 +1,93 @@
+---
+title: CSC 106 Can Computers Think?, Week 4 Day 4 (0.25 pts for engagement)
+date: April, 24, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# Conditionals & Loops
+
+Begin the following as paired-programming in class, but be sure to individually finish any problems you don't get to (hand in written answers of **0.25 engagement points**, check website for due date)
+
+## Reminders for Pair Programming
+
+* Instructions:
+    +	driver (has the keyboard and types) and navigator  (guides the driver)
+    + You should be talking to each other constantly!
+    + You should be able to swap roles at any moment.
+    + Swap roles every 5 to 10 minutes.
+
+### Learning goals / relevent topics
+
+* Conditionals (Runestone Ch. 4)
+* Comparison Operators (Runestone Ch. 2)
+* While Loops (Runestone Ch. 6)
+
+
+1. Largest number: Write a function that uses a while loop to ask the user to enter many numbers, then returns the largest number entered. The prompt asking for a number should indicate that entering -1 will cause the loop to end and the loop should, in fact, end when the user enters -1.
+
+    b. The main body of the program (should follow the function definition) should call the function for testing purposes.
+
+
+Hint: it will probably be easier if you use more than one variable to help you keep track of the largest number entered, but you shouldn’t need a lot of variables either.
+
+2. Running for Congress: A person is eligible to be a US senator if they are at least 30 years old and have been a US citizen for at least 9 years. To be a US representative, you need to be at least 25 years old and have been a US citizen for at least 7 years. Write a function called eligible_to_run that takes two numbers indicating a person’s age and years of citizenship, then prints a message stating their eligibility for the Senate and House.
+
+The message should have one of the following forms:
+
+* Congratulations! You are eligible to run for the House of Representatives and the Senate.
+* You are eligible to run for the House of Representatives, but not for the Senate.
+* Sorry! You are not eligible to run for Congress.
+
+Make sure to test your implementation thoroughly. What are the different scenarios that should be tested? Show what you test by including a list of all function calls at the bottom of your file.
+
+* (Optional 1) In addition to the citizenship and age requirements, an individual must be a resident of the state they are seeking to represent. Adjust the function you wrote to consider whether the person is a resident of the state or not.
+* (Optional 2) In order to be President of the US, you need to be at least 35 years old, a natural born citizen, and have lived in the US for at least 14 years. Create a new function to check whether the person is eligible to become US president.
+
+3. Leap years: A year is a leap year if it is divisible by 4, unless it is a century year (divisible by 100) that is not divisible by 400. Some examples:
+
+* 2020 was a leap year because it is divisible by 4.
+* 1900 was not a leap year, because it is divisible by 100, but not 400
+* 2000 was a leap year, because it is divisible by 400
+
+Write a function that takes a year as a parameter and determines whether or not it is/was a leap year.
+
+* (Optional) Add a while loop to the main body of the program that:
+    + Asks the user to enter the year they want to check
+    + Calls the function you created
+    + Asks the user if they want to check another year (y/n)
+
+4. Rolling Dice: Write a function that takes two parameters, faces and num_dice that indicate how many sides a single die has and how many dice it should roll respectively. (`random.randint` may be helpful here.)
+
+b. Add two while loops that check the numbers the user enters:
+
++ The first loop should check the number of faces and should continue running until the user provides an integer larger than one
++ The second loop should check the number of dice the user will roll and should continue running until the user enters an integer larger than zero
++These loops ensure that we have at least one side on each “die” and that we roll at least one die.
+
+c. Call the function you wrote to roll the dice
+d. Add another while loop that encapsulates the previous two loops as well as the call to the function.
+
++ This loop should ask the user if they want to roll another set of dice (y/n) and continue so long as the user indicates they want to coninue
+
+
+
+
+# Prompt: What is a problem that would be better solved with a `while` loop than a `for` loop? What is a problem a `for` loop would be better for?

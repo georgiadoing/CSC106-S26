@@ -246,6 +246,17 @@
     ]
   },
   {
+    "objectID": "03-Assignments/csc106_hw04.html",
+    "href": "03-Assignments/csc106_hw04.html",
+    "title": "HW 04",
+    "section": "",
+    "text": "CSC106: Assignment 4 (0.25 pts)\n\ndue Friday 5/1/26 by class time (1:50 pm)\nRunestone Chapter 6 (see schedule for specific sub-sections)\nPractice Problems for Week 4:\n\nSubmit code on Gradescope,\nBring written answers to class (0.25 engagement points awarded on these)\nGraded on effort/completion\n\n\n\nstarter code\n\nsum_of_powers.py",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>HW 04</span>"
+    ]
+  },
+  {
     "objectID": "04-Notes/week1.html",
     "href": "04-Notes/week1.html",
     "title": "Week 1",
@@ -253,7 +264,7 @@
     "text": "Notes from Week 1\n\nDay 1 (Mon): Seymour Pappert Turtle Documentary\n\nTurtle drawing activity (0.25 pts)\n\nDay 2 (Wed): Instructions for First Program Activity (.25 pts)\nDay 3 — Lab (Thurs): Reeborg activity: newspaper (.25 pts)\n\n\n\nPython Examples\n\nin-class examples from Friday: https://drive.google.com/file/d/1UW3fMha6Ki4dDR_sidpeiV-PDeBSFEPi/view?usp=sharing\n\nexamples of comments, importing turtle, variables and for loops\nalso includes link to turtle library documentation",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 1</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 1</span>"
     ]
   },
   {
@@ -264,7 +275,7 @@
     "text": "In-class activities for week 2\n\nMon: Runestone Ch. 1 review (.25 pts)\nWed: More Turtle Drawing (.25 pts)\nThurs (lab): Variables and Loops (.25 pts)\nFri: Tracing & Memory Diagrams (.25 pts)\n\n\n\nKey Resources this week\n\nall also found in Resources page\nPython Documentation\nPython Tutor\n\n\n\nExamples from class\n\nCoding constructs: examples from class Monday - re-written a bit for clarity\nVariables and types: examples from class Thurs (lab) - in class we used PythonTutor but this is the code copied into a file in Idle",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 2</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Week 2</span>"
     ]
   },
   {
@@ -275,7 +286,7 @@
     "text": "In-class activities for week 3\n\nMon: Practice with functions\n\nstarter code: stars0.json\nstarter code: stars1.json\n\nWed: More Practice with functions & input (.25 pts)\nThurs (lab): Functions lab (.25 pts)\n\nstarter code: house.py\n\nFri: Study Questions(.25 pts)\n\nstarter code: road repair folder",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Week 3</span>"
     ]
   },
   {
@@ -286,7 +297,7 @@
     "text": "In-class activities for week 4\n\nMon: Multi-branch Conditionals\n\nstarter code: Walk Through Field Folder\nstarter code: Harvest Folder\n\nWed: example of function with optional param\n\ndownload the above file and run in in IDLE (as a file, NOT in the shell)\n\n\n###############################################################################\n# Georgia Doing (doingg@union.edu)\n#\n# Turtle triangle with optional param\n# In class demo\n###############################################################################\n\nimport turtle\n\n# example function with optional param\ndef turt_triangle(color = \"black\"):\n    turtle.pencolor(color)\n    for side in range(3):\n        turtle.forward(75)\n        turtle.left(120)\n\n\n# set pensize so easier to see\nturtle.pensize(5)\n\n# draw a black triangle (default color)\nturt_triangle()\n\n# move so shapes don't overlap\nturtle.teleport(100,100)\n\n# draw a red triangle\nturt_triangle(\"red\")\n\nThurs (lab): Practical Exam #1\n\n1 hr\nIn IDLE\nCoding and some written answers\n\nFri:",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Week 4</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Week 4</span>"
     ]
   }
 ]
