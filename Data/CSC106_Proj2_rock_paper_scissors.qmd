@@ -211,7 +211,7 @@ b.	Comments within the body of the code to further clarify how the program works
 Hint: it may be helpful to think of this as breaking your code up into “paragraphs.”
 3.	Have you cleaned up any code snippets you no longer need?
 a.	The final version of the program should not contain any lines of actual code that are commented out to keep them from running. Such snippets should be removed before submitting.
-Once you have checked these things, submit your files to Project 2: Rock-Paper-Scissors on Gradescope.
+Once you have checked these things, submit your files to *cat3_Project 2: Rock-Paper-Scissors* on Gradescope.
  
 
 
