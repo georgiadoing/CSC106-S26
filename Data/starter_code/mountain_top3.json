@@ -1,0 +1,107 @@
+{
+  "robots": [
+    {
+      "x": 1,
+      "y": 1,
+      "_prev_x": 1,
+      "_prev_y": 1,
+      "_prev_orientation": 0,
+      "objects": {},
+      "_orientation": 0,
+      "start_positions": [
+        [
+          1,
+          1
+        ]
+      ],
+      "_is_leaky": true,
+      "_trace_history": [],
+      "_trace_style": "default",
+      "_trace_color": "seagreen",
+      "__id": 25,
+      "model": "classic",
+      "possible_initial_positions": [
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  ],
+  "walls": {
+    "1,1": [
+      "east"
+    ],
+    "2,1": [
+      "north"
+    ],
+    "2,2": [
+      "east"
+    ],
+    "5,4": [
+      "east"
+    ],
+    "6,3": [
+      "north",
+      "east"
+    ],
+    "7,2": [
+      "north",
+      "east"
+    ],
+    "8,1": [
+      "north",
+      "east"
+    ],
+    "3,3": [
+      "north"
+    ],
+    "3,4": [
+      "east"
+    ],
+    "4,4": [
+      "north"
+    ],
+    "4,5": [
+      "east"
+    ],
+    "2,3": [
+      "east"
+    ],
+    "4,6": [
+      "east"
+    ],
+    "4,7": [
+      "east"
+    ],
+    "5,7": [
+      "north",
+      "east"
+    ],
+    "5,6": [
+      "east"
+    ],
+    "5,5": [
+      "east"
+    ]
+  },
+  "description": [
+    "A simple, empty world, ready for Reeborg to explore."
+  ],
+  "small_tiles": false,
+  "rows": 10,
+  "cols": 10,
+  "goal": {
+    "possible_final_positions": [
+      [
+        5,
+        8
+      ]
+    ],
+    "position": {
+      "image": "racing_flag",
+      "x": 5,
+      "y": 8
+    }
+  }
+}
