@@ -268,6 +268,28 @@
     ]
   },
   {
+    "objectID": "03-Assignments/csc106_hw05.html",
+    "href": "03-Assignments/csc106_hw05.html",
+    "title": "HW 05",
+    "section": "",
+    "text": "CSC106: Assignment 5 (0.25 pts)\n\ndue Friday 5/5/26 by class time (1:50 pm)\nRunestone Chapter 7 (see schedule for specific sub-sections)\nPractice Problems for Week 5:\n\nSubmit code on Gradescope,\nBring written answers to class (0.25 engagement points awarded on these)\nGraded on effort/completion\n\n\n\nstarter code\n\nnumber_guessing.py",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>HW 05</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/csc106_hw06.html",
+    "href": "03-Assignments/csc106_hw06.html",
+    "title": "HW 06",
+    "section": "",
+    "text": "CSC106: Assignment 6 (0.25 pts)\n\ndue Friday 5/11/26 by class time (1:50 pm)\nRunestone Chapter 9 (see schedule for specific sub-sections)\nPractice Problems for Week 6:\n\nSubmit code on Gradescope,\nBring written answers to class (0.25 engagement points awarded on these)\nGraded on effort/completion\n\n\n\nstarter code\n\nFrom the in-class assignment…",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>HW 06</span>"
+    ]
+  },
+  {
     "objectID": "03-Assignments/csc106_proj3.html",
     "href": "03-Assignments/csc106_proj3.html",
     "title": "Project 3",
@@ -275,7 +297,29 @@
     "text": "CSC106: Project 3\n\ndue Friday 5/15/26 by 11:59 pm\nyou may use late token(s) for this assignment\n\nIn this project, you’ll implement variants of a text-based Wordle game. If you’re not familiar with the game, check out the Wikipedia article about it: (https://en.wikipedia.org/wiki/Wordle).\n\nReminder: Programming projects should be done individually. You should not look at anyone else’s code, show your code to anyone else, write code for anyone else, or let someone else write code for you. Consider anyone else to include any form of AI. Please see the syllabus or course website for what to do when you need help with your work.\nProjects are graded on program correctness and code composition, including proper commenting\nThis project is 10% of your final grade",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Project 3</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Project 3</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/csc106_hw07.html",
+    "href": "03-Assignments/csc106_hw07.html",
+    "title": "HW 07",
+    "section": "",
+    "text": "CSC106: Assignment 7 (0.25 pts)\n\ndue Friday 5/18/26 by class time (1:50 pm)\nRunestone Chapter 8 (see schedule for specific sub-sections)\nPractice Problems for Week 6:\n\nSubmit code on Gradescope,\nBring written answers to class (0.25 engagement points awarded on these)\nGraded on effort/completion",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>HW 07</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/csc106_hw08.html",
+    "href": "03-Assignments/csc106_hw08.html",
+    "title": "HW 08",
+    "section": "",
+    "text": "CSC106: Assignment 9 (0.25 pts)\n\ndue Friday 5/25/26 by class time (1:50 pm)\nRunestone Chapter 10 (see schedule for specific sub-sections)\nPractice Problems for Week 8:\n\nSubmit code on Gradescope,\nBring written answers to class (0.25 engagement points awarded on these)\nGraded on effort/completion\n\n\n\nstarter code\n\nshort_file.txt\ndracula.txt",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>HW 08</span>"
     ]
   },
   {
@@ -286,7 +330,18 @@
     "text": "CSC106: Project 4\n\ndue Friday 5/29/26 by 11:59 pm\nyou may use late token(s) for this assignment\n\nSentiment analysis seeks to determine the general attitude of a writer, given some text they have written. For example, given the movie review “The film was a breath of fresh air” a sentiment analysis program should realize that this is a positive statement about the movie, while the review “It made me want to poke out my eye balls” expresses a negative opinion. In this project you’ll implement a very simple sentiment analysis system for movie reviews.\n\nReminder: Programming projects should be done individually. You should not look at anyone else’s code, show your code to anyone else, write code for anyone else, or let someone else write code for you. Consider anyone else to include any form of AI. Please see the syllabus or course website for what to do when you need help with your work.\nProjects are graded on program correctness and code composition, including proper commenting\nThis project is 10% of your final grade\nstarter code and files:\n\nsentiment_analysis.py\nmovie_reviews_training.txt\nmovie_reviews_dev.txt\nmovie_reviews_mini.txt",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Project 4</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Project 4</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/csc106_hw09.html",
+    "href": "03-Assignments/csc106_hw09.html",
+    "title": "HW 09",
+    "section": "",
+    "text": "CSC106: Assignment 9 (0.25 pts)\n\ndue Friday 5/25/26 by class time (1:50 pm)\nPractice Problems for Week 9:\n\nNo coding portion\nBring written answers to class (0.25 engagement points awarded on these)\nGraded on effort/completion",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>HW 09</span>"
     ]
   },
   {
@@ -297,7 +352,7 @@
     "text": "Notes from Week 1\n\nDay 1 (Mon): Seymour Pappert Turtle Documentary\n\nTurtle drawing activity (0.25 pts)\n\nDay 2 (Wed): Instructions for First Program Activity (.25 pts)\nDay 3 — Lab (Thurs): Reeborg activity: newspaper (.25 pts)\n\n\n\nPython Examples\n\nin-class examples from Friday: https://drive.google.com/file/d/1UW3fMha6Ki4dDR_sidpeiV-PDeBSFEPi/view?usp=sharing\n\nexamples of comments, importing turtle, variables and for loops\nalso includes link to turtle library documentation",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Week 1</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Week 1</span>"
     ]
   },
   {
@@ -308,7 +363,7 @@
     "text": "In-class activities for week 2\n\nMon: Runestone Ch. 1 review (.25 pts)\nWed: More Turtle Drawing (.25 pts)\nThurs (lab): Variables and Loops (.25 pts)\nFri: Tracing & Memory Diagrams (.25 pts)\n\n\n\nKey Resources this week\n\nall also found in Resources page\nPython Documentation\nPython Tutor\n\n\n\nExamples from class\n\nCoding constructs: examples from class Monday - re-written a bit for clarity\nVariables and types: examples from class Thurs (lab) - in class we used PythonTutor but this is the code copied into a file in Idle",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Week 2</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Week 2</span>"
     ]
   },
   {
@@ -319,7 +374,7 @@
     "text": "In-class activities for week 3\n\nMon: Practice with functions\n\nstarter code: stars0.json\nstarter code: stars1.json\n\nWed: More Practice with functions & input (.25 pts)\nThurs (lab): Functions lab (.25 pts)\n\nstarter code: house.py\n\nFri: Study Questions(.25 pts)\n\nstarter code: road repair folder",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Week 3</span>"
     ]
   },
   {
@@ -330,7 +385,7 @@
     "text": "In-class activities for week 4\n\nMon: Multi-branch Conditionals\n\nstarter code: Walk Through Field Folder\nstarter code: Harvest Folder\n\nWed: example of function with optional param\n\ndownload the above file and run in in IDLE (as a file, NOT in the shell)\n\n\n###############################################################################\n# Georgia Doing (doingg@union.edu)\n#\n# Turtle triangle with optional param\n# In class demo\n###############################################################################\n\nimport turtle\n\n# example function with optional param\ndef turt_triangle(color = \"black\"):\n    turtle.pencolor(color)\n    for side in range(3):\n        turtle.forward(75)\n        turtle.left(120)\n\n\n# set pensize so easier to see\nturtle.pensize(5)\n\n# draw a black triangle (default color)\nturt_triangle()\n\n# move so shapes don't overlap\nturtle.teleport(100,100)\n\n# draw a red triangle\nturt_triangle(\"red\")\n\nThurs (lab): Practical Exam #1\n\n1 hr\nIn IDLE\nCoding and some written answers\n\nFri:",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Week 4</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Week 4</span>"
     ]
   }
 ]

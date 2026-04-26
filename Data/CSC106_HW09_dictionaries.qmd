@@ -1,0 +1,171 @@
+---
+title: CSC 106 Can Computers Think?, Week 9 Practice Problems
+date: May, 25th, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+---
+
+NAME:  
+
+
+# Practice Problems for Week 9 (due 6/1/26 in class)
+
+**Evaluating expressions involving dictionaries**
+
+For each of the items given below, say whether they are an expression, a statement, or invalid. Interpret them in the context of variables `d1` and `d2` defined below.
+
+* For expressions, also give their value
+* For statements, also say what the effect of the statement is going to be
+* For the invalid items, explain why they’re invalid
+
+```
+d1 = {"tom":344, "anna":643, "peter":9482}
+d2 = {"hans":633, "cay":123}
+```
+
+
+
+
+(a)	`d1["anna"]`   		………………………………………………………………………………………………
+
+…………………………………………………………………………………………………………………
+
+(b)	`d1["hans"]` 	 	………………………………………………………………………………………………
+
+…………………………………………………………………………………………………………………
+
+(c)	`d1["cay"] = 737`	………………………………………………………………………………………………
+
+…………………………………………………………………………………………………………………
+
+(d)	`d1 + d2`			………………………………………………………………………………………………
+
+…………………………………………………………………………………………………………………
+
+
+**Basic dictionary manipulation**
+
+1.	Give a statement that creates an empty dictionary and associates it with the variable name  `new_dict`
+
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+
+
+
+2.	Give an expression that adds a new entry to the (already existing) dictionary some_dict. The key of that entry should be 5 and the value should be: `['pokemon', 'call of duty', 'guilty gear']`
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+{{< pagebreak >}}
+
+**Examining a function**
+
+Consider the following function definition.
+
+```
+def mystery(alist, blist):
+	if len(alist) != len(blist):
+		return None
+A –->d = {}
+	for idx in range(0, len(alist)):
+B -->	d[alist[idx]] = blist[idx]
+	return d
+```
+
+1.	What happens in the line marked with `A`?
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+2.	What happens in the line marked with `B`?
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+3.	In one sentence or short paragraph: what does this function do?
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+{{< pagebreak >}}
+
+
+**Dictionaries and variable values**
+
+```
+Consider the following program:
+1.	def lists_to_dict(alist, blist):
+2.	   if len(alist) != len(blist):
+3.	      return None
+4.	   d = {}
+5.	   for idx in range(0, len(alist)):
+6.	      d[alist[idx]] = blist[idx]
+7.	   return d
+8.	  
+9.	new_dict = lists_to_dict(['a', 'b', 'c'], [100, 200, 300])
+```
+
+1.	Draw a memory diagram that shows what we have in memory once this snippet of code has been completely executed (i.e. after line 9 has been run).
+
+\vspace{9em}
+
+2.	Draw a memory diagram that shows what we have in memory when line 4 has just been executed.
+
+\vspace{9em}
+
+3.	Draw a memory diagram that shows what we have in memory when line 6 has been executed for the first time.

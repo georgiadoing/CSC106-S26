@@ -1,0 +1,189 @@
+---
+title: CSC 106 Can Computers Think?, Week 8 Practice Problems
+date: May, 18th, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+---
+
+NAME:  
+
+
+# Practice Problems for Week 8
+
+Please complete, bring to class (written answers) and submit on gradescope (code) by end of day on **Monday 5/25/26**.
+
+
+You will be submitting the following files:  
+
+- wordlist.py
+
+# Programming Part 1: Word List from a File
+
+1.	Download the starter files `short_file.txt` and `dracula.txt` from the course website.
+
+2.	Write a function called `create_wordlist_from_file` that takes the name of a text file and returns a list of all words in the text.
+
+One strategy you can use for dividing the text file up into words: assume that all words are separated by white space characters (e.g. “space”, “tab”, “new line”). This assumption will lead to some “words” that include punctuation characters (e.g. "Bistritz.–Left"). This is perfectly acceptable.
+For example, giving the function dracula.txt from Nexus should produce a word list that starts as follows:
+
+```
+['3', 'May.', 'Bistritz.--Left', 'Munich', 'at', '8:35' ...]
+```
+
+After defining your functions, add the following line to your code:
+
+`### DO NOT DELETE THIS LINE: beg testing`
+
+Test your function definition. Make sure to leave some evidence of testing in your file.
+Make sure to add appropriate comments.
+
+3.	(Optional) Try to improve your function so that punctuation characters are not included in words.
+
+
+
+
+
+# Written Questions
+
+Consider the following code snippet when answering the following questions.  Assume that the following function definitions for sum are used with the provided scores array. For each definition say (a) what gets printed to the screen and (b) briefly describe the purpose of the function.
+
+```
+scores =	[[1, 2, 3],
+ [4, 5, 6],
+ [7, 8, 9]]
+print(sum(scores))
+```
+
+
+1.	```
+def sum(grid):
+	sums = []
+	for row in grid:
+		rowsum = 0
+		for num in row:
+			rowsum += num
+		sums += [rowsum]
+	return sums
+```
+
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+
+
+
+2.	```
+def sum(grid):
+	sums = [0] * len(grid)
+	for row in grid:
+		for i in range(0, len(row)):
+			sums[i] += row[i]
+	return sums
+```
+
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+
+3.	```
+def sum(grid):
+	total_sum = 0
+	for row in grid:
+		for num in row:
+			total_sum+= num
+	return total_sum
+```
+
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+4. Arrange the following lines of code into a program that reads text in from a file and computes the average length of the words in the text. The text file contains multiple lines and each line consists of several words.
+
+```
+def avg_word_length(filename):
+avg_word_length("dracula.txt")
+return sum_word_lengths / word_count
+pipe = open(filename, "r")
+words = line.split()
+word = word.strip(".,;:!?-\"’\n\t ")
+word_count = 0
+sum_word_lengths = 0
+word_count += 1
+sum_word_lengths += len(word)
+for word in words:
+for line in pipe:
+if len(word) != 0:
+pipe.close()
+```
+
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………

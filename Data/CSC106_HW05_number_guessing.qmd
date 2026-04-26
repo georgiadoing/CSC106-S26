@@ -1,0 +1,121 @@
+---
+title: CSC 106 Can Computers Think?, Week 5 Practice Problems
+date: April, 25, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+---
+
+NAME:  
+
+
+# Practice Problems for Week 5
+
+Please complete, bring to class (written answers) and submit on gradescope (code) by end of day on **Wednesday 5/5/26**.
+
+
+You will be submitting the following files:  
+
+- number_guessing.py
+
+# Programming Part 1: Number Guessing
+
+Your task is to write a program that plays a number guessing game. Download the starter code `number_guessing.py`. The computer chooses a random number between 1 and 100, then the user makes guesses until they find the right number. After every guess, the computer gives a hint by saying whether the number the user guessed was too high or too low.
+
+For example, the interaction could look like this. The numbers after the colon are what the user/player types in. 
+
+So: the computer prints out `“Guess a number between 1 and 100: “`and then the user types in `50`.
+
+```
+>>> number_guessing()
+Guess a number between 1 and 100: 50
+That is too low. Try again: 75
+That is too high. Try again: 67
+That is too high. Try again: 58
+That is too high. Try again: 54
+That's right! My number was: 54
+```
+
+Some details:
+
+* The computer should choose a number between 1 and 100 inclusive (i.e. [1, 100] to use math notation). That is, 1 is the smallest number the computer picks, and 100 is the largest number the computer picks. You may have to choose different start and stop points depending on which function you use from the random module.
+
+* You should define a function called `number_guessing`. When this function is called, one whole round of the number guessing game is played. That is, when this function is called, the computer chooses a random number and then asks the user for a guess. If the guess is too high, the computer says so and lets the user input another guess; similarly if the guess is too low. This is repeated until the user guesses the right number.
+
+
+
+# Written Questions
+
+The code below should print "One" if the variable `a` equals `1`, "Two" if `a` equals 2, "Three" if `a` equals 3, and "Other" if `a` is something else. But it prints "One" and "Other" if `a` equals 1, "Two" and "Other" if `a` equals 2, "Three" if `a` equals 3, and "Other" if `a` is something else. Explain what is wrong and fit it.
+
+
+```
+if a == 1:
+	print("One")
+if a == 2:
+	print("Two")
+if a == 3:
+	print("Three")
+else:
+	print("Other")
+```
+
+
+
+
+Consider the following code snippets. For each of them, what is Reeborg going to do when this code is run? You can assume that Reeborg is carrying an unlimited supply of tokens and is starting in the bottom left corner facing East as usual. Sketch the behavior of Reeborg for each of the two code snippets, and explain why Reeborg is behaving this way. 
+
+
+::: {#fig-fields layout-ncol=2}
+
+```
+while front_is_clear():
+    put()
+	move()
+```
+
+```
+while front_is_clear():
+    put()
+move()
+```
+:::
+
+
+
+
+
+::: {#fig-fields layout-ncol=2}
+
+![a](./images/reeborg_blank.pdf){ width=225px }
+
+![b](./images/reeborg_blank.pdf){ width=225px }
+
+:::
+
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
