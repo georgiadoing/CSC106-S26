@@ -1,0 +1,60 @@
+---
+title: CSC 106 Can Computers Think?, Week 5 Day 4 (0.25 pts for engagement)
+date: May, 1, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# ASCII and Characters
+
+Begin the following as paired-programming in class, but be sure to individually finish any problems you don't get to (hand in written answers of **0.25 engagement points**, check website for due date)
+
+
+### Learning goals / relevent topics
+
+* String methods (Runestone Ch. 7) & ASCII encodings (<https://www.asciitable.com/>)
+* Binary to Decimal numbers (<https://www.cuemath.com/numbers/binary-to-decimal/>)
+
+
+## 1. ASCII encoding of strings
+
+Write a function that takes a single character and converts it into the corresponding ASCII value. For example, if we have “monkey” and call the function on each character, we should get the following ASCII values in order: `109, 111, 110, 107, 101, 121`
+
+## 2. Checking strings for non-alphabetic characters 
+
+Write a function `contains_non_alpha` that takes a string and checks whether it contains any non-alphabetic characters. You can (and in fact should) use the built-in functions `ord` and `chr`.
+
+## 3. Decoding binary patterns	
+
+Write a function `decode_binary` that takes a string of `0`s and `1`s representing a binary number and returns the integer value of that binary number. For example, given the string `“110”` the function should return the integer `6`. Given `"00101001"`, it should return the integer `41`. Do not use the built-in function `int`.
+
+
+## 4. Pig Latin
+
+
+Pig Latin is a language game in which English words are altered to make them hard to understand by people not familiar with the rules. Write a function that takes an English word, translates that word into Pig Latin and **returns** the result. It should follow the below rules:
+
+* If a word begins with a vowel, append “way” to the end of the word (e.g. `ear -> earway`)
+* If a word begins with a consonant, remove all consonants from the beginning up to the first vowel and append them to the end of the word. Then append “ay” to the end of the word. (`pig -> igpay`, `star -> arstay`, `street -> eetstray`)
+
+ 
+
+
+**Prompt: why do ascii values exist?**

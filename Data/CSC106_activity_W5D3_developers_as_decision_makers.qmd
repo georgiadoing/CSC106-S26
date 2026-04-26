@@ -4,7 +4,7 @@ title: Week 5
 
 # Developers as Decision Makers Lab
 
-1. Download and read the [Developers as Decision Makers Lab](https://georgiadoing.github.io/CSC106-S26/Data/CSC106_activity_W5D3_developers_as_decision_makers.qmd)
+1. Download and read the [Developers as Decision Makers Lab](https://georgiadoing.github.io/CSC106-S26/Data/Developers_as_Decision-Makers.pdf)
 2. Each group member should read (at elast) 1 of the following background readings
     * [Silicon Valley Triage Tool](https://georgiadoing.github.io/CSC106-S26/Data/Silicon_Valley_Triage_Tool.pdf)
     * [Economic Roundtable on the Silicon Valley Triage Tool](https://georgiadoing.github.io/CSC106-S26/Data/Economic_Roundtable_SiliconValleyTriageTool.pdf)
