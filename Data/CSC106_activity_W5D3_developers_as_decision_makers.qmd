@@ -1,26 +1,6 @@
 ---
-title: CSC 106 Can Computers Think?, Week 5 Day 3 (0.25 pts for engagement)
-date: April, 30, 2026
-eval: true
-format: 
-    pdf:
-        number-sections: false
-        shift-heading-level-by: 2
-        geometry:
-            - top=1in
-            - right=.8in
-            - bottom=1in
-            - left=.8in
-        mainfont: "Avenir"
-        sansfont: "Avenir"
-        code-line-numbers: true
-        include-in-header: 
-            - ../preamble2.tex
-
+title: Week 5
 ---
-
-NAME(S):  
-
 
 # Developers as Decision Makers Lab
 
