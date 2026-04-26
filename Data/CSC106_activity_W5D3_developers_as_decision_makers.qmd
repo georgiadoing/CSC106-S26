@@ -1,0 +1,35 @@
+---
+title: CSC 106 Can Computers Think?, Week 5 Day 3 (0.25 pts for engagement)
+date: April, 30, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# Developers as Decision Makers Lab
+
+1. Download and read the [Developers as Decision Makers Lab](https://georgiadoing.github.io/CSC106-S26/Data/CSC106_activity_W5D3_developers_as_decision_makers.qmd)
+2. Each group member should read (at elast) 1 of the following background readings
+    * [Silicon Valley Triage Tool](https://georgiadoing.github.io/CSC106-S26/Data/Silicon_Valley_Triage_Tool.pdf)
+    * [Economic Roundtable on the Silicon Valley Triage Tool](https://georgiadoing.github.io/CSC106-S26/Data/Economic_Roundtable_SiliconValleyTriageTool.pdf)
+    * [A healthcare algorithm started cutting care](https://georgiadoing.github.io/CSC106-S26/Data/A_healthcare_algorithm_started_cutting_care_TheVerge.pdf
+    * [We created poverty](https://georgiadoing.github.io/CSC106-S26/Data/We_created_poverty_VirginiaEubanks_TheGuardian.pdf)
+
+3. Make a group copy of the [Google Doc worksheet template](https://docs.google.com/document/d/1sUz_WuiO0ew0SSlC1hU7L0XYJEeF5ssuOyLST9CJNYY/edit?usp=sharing) and share it with all group members
+4. Edit your worksheet as you plan, implement, test and reflect upon your team's housing algorithm

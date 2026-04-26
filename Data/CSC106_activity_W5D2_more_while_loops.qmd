@@ -1,0 +1,132 @@
+---
+title: CSC 106 Can Computers Think?, Week 5 Day 2 (0.25 pts for engagement)
+date: April, 29, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# While Loops
+
+Begin the following as paired-programming in class, but be sure to individually finish any problems you don't get to (hand in written answers of **0.25 engagement points**, check website for due date)
+
+
+### Learning goals / relevent topics
+
+* Conditionals (Runestone Ch. 4)
+* Comparison Operators (Runestone Ch. 2)
+* While Loops (Runestone Ch. 6)
+
+
+## 1 "Pencil/Pen and Paper" questions
+Please try to solve these problems without running/writing code. Instead you should try to come up with your answers by tracing through the code yourself and reasoning about what the Python interpreter does.
+Note: You will see similar questions on the Pen and Paper Midterm.
+
+1.	What gets printed by the following code?
+```
+1)	x = 10
+2)	while x > 8:
+3)	     print(x, end = " ")
+4)	     x = x - 1
+```
+
+………………………………………………………………………………………………
+
+2.	What gets printed by the following code?
+```
+1)	x = 10:
+2)	while x > 8:
+3)	     x = x - 1
+4)	     print(x, end = " "
+```
+………………………………………………………………………………………………
+
+3.	What gets printed by the following code?
+```
+1)	i = 0
+2)	while i < 3:
+3)	     print(i, end = " ")
+```
+………………………………………………………………………………………………	
+
+4.	What gets printed by the following code?
+```
+1)	valid = False
+2)	while not valid:
+3)	     x = int(input ("Enter a number: "))
+4)	     valid = (x % 2 == 1 and x % 3 == 0)
+```
+
+………………………………………………………………………………………………	
+ 
+5.	How can we translate this code into a while loop?
+```
+1)	for i in range(n):
+2)	     <body>
+```
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+
+## Reminders for Pair Programming
+
+* Instructions:
+    +	driver (has the keyboard and types) and navigator  (guides the driver)
+    + You should be talking to each other constantly!
+    + You should be able to swap roles at any moment.
+    + Swap roles every 5 to 10 minutes.
+
+
+# 2 Summing up numbers
+
+Write a function called `cash_register` that repeatedly asks the user to input (positive) numbers and sums them all up. When the user inputs a negative number, the function should print out a message to let the user know their total. The negative number should not be included in the sum.
+
+For example, one run of the function might look like this:
+
+```
+>>> cash_register()
+Welcome to the cash register!
+Please enter the price of each of your items.
+Please enter a negative number to indicate when you're finished.
+
+Please enter the price. (Input a negative to stop.) 2
+Please enter the price. (Input a negative to stop.) 3.75
+Please enter the price. (Input a negative to stop.) 9
+Please enter the price. (Input a negative to stop.) 6
+Please enter the price. (Input a negative to stop.) -2
+Your total is: 20.75
+```
+
+
+# 3 Reeborg: Around the world
+
+Use the world "Around - variable" from the "Introduction" collection of worlds. Every time the world is reloaded, it gives you a rectangular world of a different size. Additionally, Reeborg is carrying an infinite number of tokens. Write a program that makes Reeborg walk around the perimeters of the world exactly once, no matter how big the world is.
+
+Hint: is there a way to mark the square(s) that you’ve been to before?
+
+# 4 Reeborg: mountain climbing
+
+Download the `mounatin_top` folder of starter code from the course website. It should include four different worlds, each of which starts with Reeborg at the foot of a mountain and the goal is to help Reeborg climb to the top (Note: Reeborg should climb not fly). Write a program using function definitions, loops, and conditional statements that help Reeborg climb the mountain in any of the four worlds that are given and in any other similar mountain environments.
+
+
+**All programs should include appropriate comments and should be organized in a reasonable fashion.**
