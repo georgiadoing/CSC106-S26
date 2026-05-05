@@ -1,0 +1,93 @@
+---
+title: CSC 106 Can Computers Think?, Week 6 Day 2 (0.25 pts for engagement)
+date: May, 6, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# Caesar Cipher
+
+Begin the following as paired-programming in class, but be sure to individually finish any problems you don't get to (hand in written answers of **0.25 engagement points**, check website for due date)
+
+
+### Learning goals / relevent topics
+
+* String methods (Runestone Ch. 7) & ASCII encodings (<https://www.asciitable.com/>)
+* Binary to Decimal numbers (<https://www.cuemath.com/numbers/binary-to-decimal/>)
+
+
+## 1. Caesar Cipher Encoding
+
+A Caesar cipher (or shift cipher) encrypts text by “shifting” each letter a given number of positions in the alphabet. For example, if the number is `3`, then an `a` would become a `d`, `b` would become `e` and so on. At the end of the alphabet, we “loop back” to the beginning, so a `z` would become a `c`.
+
+For example, if we encode the  message "Caesar Ciphers are cool" with a shift of `7`, it becomes:
+
+`Jhlzhy Jpwolyz hyl jvvs.`
+
+If we encode that same message with a shift of `1`, it becomes:
+
+`Dbftbs Djqifst bsf dppm.`
+
+
+1.	Download the starter file `caesar.py` from the course website.
+
+2.	Write a function called `encipher` that takes a string representing an unencoded message and a number indicating by how many positions each letter should be shifted. The function should return a new string which represents the corresponding Caesar Cipher encoding. 
+
+For this problem, you should assume that upper-case letters are encoded as upper-case letters, and all non-alphabetic characters are left unchanged. Some examples:
+
+```
+>>> encipher('xyza', 1)
+'yzab'
+>>> encipher('Z A', 1)
+'A B'
+>>> encipher("*ab?", 1)
+'*bc?'
+>>> encipher("This is a string!", 2)
+'Vjku ku c uvtkpi!'
+>>> encipher("Caesar cipher? I prefer Caesar salad.", 25)
+'Bzdrzq bhogdq? H oqdedq Bzdrzq rzkzc.'
+```
+
+Feel free to add additional helper functions if you find it useful to do so.
+
+
+## 2. Caesar Cipher Decoding: 
+
+3. Write a function called `decipher` that takes a message encrypted with a Caesar Cipher and decodes it. The function should take two parameters - the encoded message and a number indicating by how many positions each character was shifted - and it should return the decoded message. For example:
+
+```
+>>> decipher('Bzdrzq bhogdq? H oqdedq Bzdrzq rzkzc.', 25)
+'Caesar cipher? I prefer Caesar salad.'
+```
+
+Don’t start a new file for this. Add your new function to the code that you already have in `caesar.py`.
+
+Hint: the built-in functions `ord`, `chr`, and `isalpha` may be helpful for this assignment.
+
+Note: For these optional sections, you will need to look up how to read and write files. We won’t start talking about this in class for a while yet.
+
+4.	(Optional) Create a new function `encipher_file` that takes a string representing the name of a text file and a number indicating by how many positions each letter should be shifted. This function should open the specified file, then call encipher on its contents using the numeric parameter given to `encipher_file`. The enciphered contents of the file should be written out to a new file.
+
+5.	(Optional) Create a new function `decipher_file` that takes a string representing the name of an enciphered text file and a number indicating by how many positions each letter was shifted. This function should open the specified file, then call decipher on its contents using the numeric parameter given to `decipher_file`. The enciphered contents of the file should be written out to a new file.
+
+
+
+
+**Prompt: What string methods and/or operators can you find from Runestone and/or Python documentation?**

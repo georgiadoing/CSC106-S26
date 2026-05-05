@@ -1,6 +1,6 @@
 ---
 title: CSC 106 Can Computers Think?, Week 6 Practice Problems
-date: May, 4th, 2026
+date: May, 6th, 2026
 eval: true
 format: 
     pdf:
@@ -23,7 +23,7 @@ NAME:
 
 # Practice Problems for Week 6
 
-Please complete, bring to class (written answers) and submit on gradescope (code) by end of day on **Monday 5/11/26**.
+Please complete, bring to class (written answers) and submit on gradescope (code) by end of day on **Wednesday 5/13/26**.
 
 
 You will be submitting the following files:  
