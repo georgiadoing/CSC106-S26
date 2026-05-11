@@ -14,7 +14,7 @@
     "href": "index.html#announcements",
     "title": "Course: CSC106 Can Computers Think?",
     "section": "Announcements",
-    "text": "Announcements\nWritten Midterm Exam this Thursday during class time + all pen and paper (no computer) + closed book + 90 mins - please use the testing center for extended time + includes topics up until last Friday (including while loops)\nProject 2 due this Monday (5/4/26)\n\n10% of total course grade\nwill need to use Python documentation\nwill be easier after doing texbook reading/exercises\n\nStienmetz Day Friday no class (5/8/26)\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nMonday 3:00 pm - 4:00 pm\nThursday 2:00 pm - 4:00 pm\nsubject to change, check course website for most up-to-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
+    "text": "Announcements\nProject 3 due next Monday (5/18/26)\n\n10% of total course grade\nwill need to use Python documentation\nwill be easier after doing texbook reading/exercises\n\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nMonday 3:00 pm - 4:00 pm\nThursday 2:00 pm - 4:00 pm\nsubject to change, check course website for most up-to-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
@@ -294,10 +294,21 @@
     "href": "03-Assignments/csc106_proj3.html",
     "title": "Project 3",
     "section": "",
-    "text": "CSC106: Project 3\n\ndue Friday 5/15/26 by 11:59 pm\nyou may use late token(s) for this assignment\n\nIn this project, you’ll implement variants of a text-based Wordle game. If you’re not familiar with the game, check out the Wikipedia article about it: (https://en.wikipedia.org/wiki/Wordle).\n\nReminder: Programming projects should be done individually. You should not look at anyone else’s code, show your code to anyone else, write code for anyone else, or let someone else write code for you. Consider anyone else to include any form of AI. Please see the syllabus or course website for what to do when you need help with your work.\nProjects are graded on program correctness and code composition, including proper commenting\nThis project is 10% of your final grade",
+    "text": "CSC106: Project 3\n\ndue Monday 5/18/26 by 11:59 pm\nyou may use late token(s) for this assignment\n\nIn this project, you’ll implement variants of a text-based Wordle game. If you’re not familiar with the game, check out the Wikipedia article about it: (https://en.wikipedia.org/wiki/Wordle).\n\nReminder: Programming projects should be done individually. You should not look at anyone else’s code, show your code to anyone else, write code for anyone else, or let someone else write code for you. Consider anyone else to include any form of AI. Please see the syllabus or course website for what to do when you need help with your work.\nProjects are graded on program correctness and code composition, including proper commenting\nThis project is 10% of your final grade",
     "crumbs": [
       "Assignments",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Project 3</span>"
+    ]
+  },
+  {
+    "objectID": "03-Assignments/csc106_hw07.html",
+    "href": "03-Assignments/csc106_hw07.html",
+    "title": "HW 07",
+    "section": "",
+    "text": "CSC106: Assignment 7 (0.25 pts)\n\ndue Friday 5/18/26 by class time (1:50 pm)\nRunestone Chapter 8 (see schedule for specific sub-sections)\nPractice Problems for Week 6:\n\nSubmit code on Gradescope,\nBring written answers to class (0.25 engagement points awarded on these)\nGraded on effort/completion",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>HW 07</span>"
     ]
   },
   {
@@ -308,7 +319,7 @@
     "text": "Notes from Week 1\n\nDay 1 (Mon): Seymour Pappert Turtle Documentary\n\nTurtle drawing activity (0.25 pts)\n\nDay 2 (Wed): Instructions for First Program Activity (.25 pts)\nDay 3 — Lab (Thurs): Reeborg activity: newspaper (.25 pts)\n\n\n\nPython Examples\n\nin-class examples from Friday: https://drive.google.com/file/d/1UW3fMha6Ki4dDR_sidpeiV-PDeBSFEPi/view?usp=sharing\n\nexamples of comments, importing turtle, variables and for loops\nalso includes link to turtle library documentation",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Week 1</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Week 1</span>"
     ]
   },
   {
@@ -319,7 +330,7 @@
     "text": "In-class activities for week 2\n\nMon: Runestone Ch. 1 review (.25 pts)\nWed: More Turtle Drawing (.25 pts)\nThurs (lab): Variables and Loops (.25 pts)\nFri: Tracing & Memory Diagrams (.25 pts)\n\n\n\nKey Resources this week\n\nall also found in Resources page\nPython Documentation\nPython Tutor\n\n\n\nExamples from class\n\nCoding constructs: examples from class Monday - re-written a bit for clarity\nVariables and types: examples from class Thurs (lab) - in class we used PythonTutor but this is the code copied into a file in Idle",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Week 2</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Week 2</span>"
     ]
   },
   {
@@ -330,7 +341,7 @@
     "text": "In-class activities for week 3\n\nMon: Practice with functions\n\nstarter code: stars0.json\nstarter code: stars1.json\n\nWed: More Practice with functions & input (.25 pts)\nThurs (lab): Functions lab (.25 pts)\n\nstarter code: house.py\n\nFri: Study Questions(.25 pts)\n\nstarter code: road repair folder",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Week 3</span>"
     ]
   },
   {
@@ -341,7 +352,7 @@
     "text": "In-class activities for week 4\n\nMon: Multi-branch Conditionals\n\nstarter code: Walk Through Field Folder\nstarter code: Harvest Folder\n\nWed: example of function with optional param\n\ndownload the above file and run in in IDLE (as a file, NOT in the shell)\n\n\n###############################################################################\n# Georgia Doing (doingg@union.edu)\n#\n# Turtle triangle with optional param\n# In class demo\n###############################################################################\n\nimport turtle\n\n# example function with optional param\ndef turt_triangle(color = \"black\"):\n    turtle.pencolor(color)\n    for side in range(3):\n        turtle.forward(75)\n        turtle.left(120)\n\n\n# set pensize so easier to see\nturtle.pensize(5)\n\n# draw a black triangle (default color)\nturt_triangle()\n\n# move so shapes don't overlap\nturtle.teleport(100,100)\n\n# draw a red triangle\nturt_triangle(\"red\")\n\nThurs (lab): Practical Exam #1\n\n1 hr\nIn IDLE\nCoding and some written answers\n\nFri:",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Week 4</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Week 4</span>"
     ]
   },
   {
@@ -352,7 +363,7 @@
     "text": "In-class activities for week 5\n\nMon: While Loops\nWed: Tracing while loops\n\nMountain Top Folder\n\nThurs: Developers as Decision Makers Lab\n\n\nRead through the acticity description\nEach group member should read (at least) 1 of the following background readings to summarize for the group\n\nSilicon Valley Triage Tool\nEconomic Roundtable on the Silicon Valley Triage Tool\nA healthcare algorithm started cutting care\nWe created poverty\n\nMake a group copy of the Google Doc worksheet template and share it with all group members\nEdit your worksheet as you plan, implement, test and reflect upon your team’s housing algorithm\n\n\nexample housing lottery\n\n\n\n\nFri: ASCII, Pig Latin\n\nalso due Last week’s practice Problems",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Week 5</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Week 5</span>"
     ]
   },
   {
@@ -363,7 +374,18 @@
     "text": "In-class activities for week 6\n\nMon: ASCII, Pig Latin\n\nalso due Last week’s practice Problems\nfinal thoughts on Developers as Decision Makers results\n\nWed: Bring questions from HWs 1-5 and in-class activities to review for the exam\n\nalso due: Last week’s practice Problems\nCaesar cipher for more string practice\ncaesar.py\nSolutions to previous review Qs\nSolutions to previous in-class assignments\n\nThurs: Written Exam\n\nall pen and paper (no computer)\nclosed book\n90 mins\nincludes topics up until last Friday (including while loops)\n\nFri: Steinmetz Day! (no class)",
     "crumbs": [
       "Weekly Notes",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Week 6</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Week 6</span>"
+    ]
+  },
+  {
+    "objectID": "04-Notes/week7.html",
+    "href": "04-Notes/week7.html",
+    "title": "Week 7",
+    "section": "",
+    "text": "In-class activities for week 7\n\nMon: Lists\n\nList Practicing Activity\n\nalso due: Last week’s practice Problems\n\nWed: Even More Lists\nThurs: Tracing Lists\nFri: Dictionaries",
+    "crumbs": [
+      "Weekly Notes",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Week 7</span>"
     ]
   }
 ]
