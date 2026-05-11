@@ -1,0 +1,106 @@
+---
+title: CSC 106 Can Computers Think?, Week 7 Day 2 (0.25 pts for engagement)
+date: May, 13, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# More Lists
+
+Begin the following as paired-programming in class, but be sure to individually finish any problems you don't get to (hand in written answers of **0.25 engagement points**, check website for due date)
+
+
+### Learning goals / relevent topics
+
+* List methods (Runestone Ch. 9) 
+
+
+## Part 1: list_micro.py
+
+1.	Download the starter file `list_micro.py` from the course website.
+
+2.	This problem asks you to write five “micro programs” consisting of just a statement or two.
+    a.	Write a statement that assigns a list of 5 integers (any values) to the variable `some_numbers`.
+    b.	Write a statement that concatenates the lists `list1` and `list2` and assigns the result to the variable `list1and2`.
+    
+    * Note that the starter file assigns some specific values to the variables `list1` and `list2` so that you can test your code. However, the statement you write should not depend on `list1` and `list2` having specific values. Your statement should work for any values that `list1` and `list2` might have. This is also true for all of the following assignments. None of the statements you write should depend on any variables having a specific value.
+
+    c.	Write a statement that computes the sum of the lengths of `list3` and `list4` and assigns the result to the variable `combined_lengths`.
+    d.	Write a statement that introduces the variable name `third_element` and assigns the third element of list `list5` as its value.
+    e.	Assume that `list6` is a list of numbers. Write a statement that adds the first and last element of `list6` and assigns the result to the variable `first_plus_last`.
+
+## Part 2: minimum.py
+
+1.	Download the starter file `minimum.py` from the course website.
+
+2.	Write a function called `find_min` that takes a list of numbers and returns the smallest number in the list. 
+
+* Note that the smallest number may not be a unique element in the list; there may be multiple occurrences of that value. If the list is empty, no smallest number can be determined and the function should return `None`.
+Your definition should not use the built-in min function, and the function should not modify the list it is given as a parameter.
+3.	Now write a function `drop_lowest` that takes a list of scores (numbers) and returns a new list containing all numbers from the first list except for the smallest one. For simplicity purposes if the smallest number occurs more than once, all occurrences should be eliminated.
+
+* Your definition should not use the built-in `min` function. Instead, you should use the `find_min` function you previously defined. This function should not modify the list it is given as a parameter.
+Add your function to the `minimum.py` file that already contains your definition for `find_min`.
+
+
+
+
+**Prompt: Which function definition will return [12, 15, 18] when called as shown below? Show a trace with memory diagrams using your chosen function definition. Line numbers are provided to help with your trace.**
+
+(lines 1 – 10 hold the sum function definition and comments)
+
+```
+11 scores = [[1, 2, 3],
+12     	     [4, 5, 6],
+13           [7, 8, 9]]
+14 sum(scores)
+```
+
+a.
+```
+1 def sum(grid):
+2 	sums = []
+3 	for row in grid:
+4 		sum = 0
+5 		for num in row:
+6 			sum += num
+7 		sums += [sum]
+8 	return sums
+```
+
+b.
+```
+1 def sum(grid):
+2 	sums = [0] * len(grid)
+3 	for row in grid:
+4 		for i in range(0, len(row)):
+5 			sums[i] += row[i]
+6 	return sums
+```
+
+c.
+```
+1 def sum(grid):
+2 	sum = 0
+3 	for row in grid:
+4 		for num in row:
+5 			sum += num
+6 	return sum
+```
