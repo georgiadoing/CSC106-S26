@@ -37,7 +37,7 @@ You will be submitting the following files:
 2.	Write a function called `create_wordlist_from_file` that takes the name of a text file and returns a list of all words in the text.
 
 One strategy you can use for dividing the text file up into words: assume that all words are separated by white space characters (e.g. “space”, “tab”, “new line”). This assumption will lead to some “words” that include punctuation characters (e.g. "Bistritz.–Left"). This is perfectly acceptable.
-For example, giving the function dracula.txt from Nexus should produce a word list that starts as follows:
+For example, giving the function `dracula.txt` should produce a word list that starts as follows:
 
 ```
 ['3', 'May.', 'Bistritz.--Left', 'Munich', 'at', '8:35' ...]
@@ -62,8 +62,8 @@ Consider the following code snippet when answering the following questions.  Ass
 
 ```
 scores =	[[1, 2, 3],
- [4, 5, 6],
- [7, 8, 9]]
+ 			 [4, 5, 6],
+ 			 [7, 8, 9]]
 print(sum(scores))
 ```
 
