@@ -1,0 +1,135 @@
+---
+title: CSC 106 Can Computers Think?, Week 9 Day 3 (0.25 pts for engagement)
+date: May, 28, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# Real-World Recursion
+
+Begin the following as paired-programming in class, but be sure to individually finish any problems you don't get to (hand in written answers of **0.25 engagement points**, check website for due date). 
+
+
+# For each scenario below, discuss with your lab partner and write: 
+
+- Base case: When does the recursion stop?
+- Recursive step: How do you break the problem into a smaller version of itself?
+
+
+
+Example format: 
+
+Scenario: “How many socks are in a pile?” 
+
+
+-	Base case: If the pile is empty, return 0.  
+-	Recursive step: Otherwise, return 1 + the number of socks in a pile that has 1 less sock.
+
+
+# Scenarios
+
+
+1. How many slices are in a loaf of bread?
+
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+2. How many steps in a staircase?
+
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+3. How many people are in a line at the grocery store?
+
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+
+4. How many pages are in a book?
+
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+
+5. How many cups are in a stack?
+
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+

@@ -1,0 +1,48 @@
+---
+title: CSC 106 Can Computers Think?, Week 9 Day 1 (0.25 pts for engagement)
+date: May, 25, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# Author Identification
+
+Begin the following as paired-programming in class, but be sure to individually finish any problems you don't get to (hand in written answers of **0.25 engagement points**, check website for due date). Take a look at Runestone Ch. 8 for relevent reading and practice.
+
+This is the first part of a two-part assignment in which you’ll write a program that helps identify the author of a piece of text.
+
+1.	Download the following files from the course website:
+    a.	`author_identification.py`: the starter file
+    b.	`state-union-gwbush-minus-2006.txt`: all State of the Union addresses by George W. Bush except for the 2006 one. To make later processing more convenient, all punctuation has been stripped and words converted to all lowercase.
+    c.	`state-union-obama-minus-2014.txt`: all State of the Union addresses by Barack Obama except for the 2014 one. To make later processing more convenient, all punctuation has been stripped and words converted to all lowercase.
+
+
+2.	Build a word-frequency dictionary. Write a function called `make_word_frequency_dictionary` that takes the name of a file and returns a dictionary that maps words to how often they occur in the text.
+
+3.	Now go from word-frequencies to word-probabilities. Write a function `make_word_probability_dictionary` that takes a word-frequency dictionary and creates a dictionary that maps words to probabilities, instead of raw frequency counts.
+
+
+That is, the dictionary you are building should contain the same words as the word-frequency dictionary. To get the probabilities of the words, you have to divide the frequency of each word by the total number of words found in the text. Note that this is not the number of different words in the text (word types), but the total number of word tokens. In other words, if a word appears multiple times, it gets counted multiple times. One way of getting the total number of words in the text is to sum up all values in the word-frequency dictionary.
+
+(In part two of the assignment, which we’ll do in-class in a couple days, you’ll use the word-probability dictionary to figure out whether a given mystery text was written by Bush or Obama.)
+
+
+
+**Prompt: Why do humans write (and speak) in different, individual ways? Does the way someone writes and/or speaks affect how they think?**

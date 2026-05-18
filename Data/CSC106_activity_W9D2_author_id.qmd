@@ -1,0 +1,52 @@
+---
+title: CSC 106 Can Computers Think?, Week 9 Day 2 (0.25 pts for engagement)
+date: May, 27, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# Author Identification
+
+Begin the following as paired-programming in class, but be sure to individually finish any problems you don't get to (hand in written answers of **0.25 engagement points**, check website for due date). Take a look at Runestone Ch. 8 for relevent reading and practice.
+
+This is the second part of a two-part assignment in which you’ll write a program that helps identify the author of a piece of text. If you didn’t finish that assignment, you should finish it before moving on to this assignment.
+
+1.	You’ll need your code (`author_identification.py`) and the two text files from the first part of this assignment.
+
+
+2.	Download the following files from the course website:
+    a.	`mystery1.txt`: a State of the Union address
+    b.	`mystery2.txt`: a State of the Union address
+    c.	`mystery3.txt`: a State of the Union address
+
+One of the three mystery files is the 2006 State of the Union address by George W. Bush, one is the 2014 State of the Union address by Barack Obama, and one is a State of the Union address by another president.
+
+
+3.	General approach: Your goal is to write a program that can help you make a guess as to which of the mystery texts is by Bush, which is by Obama, and which is by somebody else (without you having to actually read the texts yourself).
+
+To figure out who, most likely, wrote each of our mystery texts, we are going to compare each mystery text to the state of the Union addresses of George W. Bush and Barack Obama. If the mystery text is more similar to one than to the other, we have some evidence as to who composed it.
+
+To measure how similar two texts are, we are going to build word-probability dictionaries for both texts (using the functions you implemented in part 1 of this assignment). Then we are going to measure the difference between those two dictionaries.
+
+As a measure of difference, we are going to use the mean squared error. That is, for each word, we are going to calculate the difference between the probabilities provided by the two dictionaries, then we are going to square that difference. We sum up the squared differences for all words and, finally, compute the average of them. The mean squared error is a measure of difference (i.e. the smaller the mean squared error, the less different / more similar two texts are).
+ 
+
+
+**Prompt: Is your program more of less accurate than you thought it would be? Explain what is or is not surprising to you about this task.**

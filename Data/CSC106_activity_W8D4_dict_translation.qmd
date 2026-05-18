@@ -1,0 +1,81 @@
+---
+title: CSC 106 Can Computers Think?, Week 8 Day 4 (0.25 pts for engagement)
+date: May, 22, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# Files with dictionaries for translation
+
+Begin the following as paired-programming in class, but be sure to individually finish any problems you don't get to (hand in written answers of **0.25 engagement points**, check website for due date). Take a look at Runestone Ch. 8 for relevent reading and practice.
+
+Download the starter file `eng-ger.txt` from the course website. This file shows some examples of how English words are mapped to German words.
+
+1.	Write a function called `read_word_dict` that reads in the word file and stores the entries in a Python dictionary that maps English words to German words. The function should return the dictionary. For example:
+```
+>>> read_word_dict("eng-ger.txt")
+{'growls': 'knurrt',is: 'ist','barks': 'bellt',
+'dog': 'hund', 'sleeping': 'schlafend', 'at': 'an',
+'the': 'der', 'cat': 'katze'}
+```
+Save this function in a file called `translation.py.`
+
+
+
+2.	Add a function `nice_print_dict` to `translation.py` that prints a nice display of the dictionary to the screen. (Hint: a for-loop over a dictionary iterates over its *keys* by default.) For example:
+
+```
+>>> translation_dict = read_word_dict("eng-ger.txt")
+>>> nice_print_dict(translation_dict)
+the.................der
+dog.................hund
+barks...............bellt
+cat.................katze
+is..................ist
+sleeping............schlafend
+growls..............knurrt
+at..................an
+```
+
+
+
+
+3.	Write a function called `translate` that takes an English sentence (represented as a string) and returns a word-by-word translation of the sentence into the other language. For example:
+
+```
+>>> translate("the dog barks", td)
+'der hund bellt '
+
+>>> translate("the cat is sleeping", td)
+'der katze ist schlafend '
+
+>>> translate("the dog barks at the cat", td)
+'der hund bellt an der katze '
+```
+
+
+4. Prepare a second, similar text file containing English words and their translation into another language. (Choose enough words so that you can use them to form a few sentences). The format of the file should be the same as the example provided. That is, each line of the file should contain one entry in the format English word: foreign word. 
+
+You can write and look at text files (ending in .txt) using IDLE. You just have to make sure to choose text files from the drop down menu in the window for saving or opening files. IDLE only shows you Python files by default. 
+
+Remember to test out the functions you’ve written on this new translation file.
+
+
+**Prompt: What qualities of language translation require the most thinking? Are they things computers can do?**

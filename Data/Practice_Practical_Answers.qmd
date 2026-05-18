@@ -1,0 +1,614 @@
+---
+title: CSC 106 - Can Computers Think? W8 - review
+eval: false
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        header-includes:
+          - |
+            \usepackage{fvextra}
+            \RecustomVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\},breaklines=true,breakanywhere=true,fontsize=\normalsize}
+        include-in-header: 
+            - ../preamble2.tex
+    ipynb:
+        title:  "Can Computers Think? Review"
+jupyter: python3
+---
+
+
+
+
+# Practical Exam Topics
+
+* Values and Types
+* Operations
+* Strings
+* ASCII
+* Input
+* Printing / Returning
+* Loops
+* Conditionals
+* Lists
+* Dictionaries
+
+* 1 hr, 4 tasks
+
+
+# Write a function that adds up multiples of 9
+
+* the function should 
+    + ask the user for input
+    + let the user know how to end the program
+    + check whether the input is a number that is a multiple of 9
+    + add multiples of 9 to a running total
+    + return the total
+
+* start with the most simple working version, then add complexities
+
+* this activity should take around 15 mins
+
+```{python}
+# Georgia Doing
+# Practice Problem 1 for Practical Exam 2
+
+def sum_nines():
+    # takes user input, adding up multiples of 9
+    # takes no parameters
+
+    # initialize accumulator
+    usr_sum = 0
+    # set indicator variable to start loop
+    go = True
+    while go:
+        # ask for a number or 'done'
+        usr_in = input("Give me numbers and I'll count 9s. Or type 'done' to exit.")
+        # check if loop should exit, robust to 'Done'
+        if usr_in.lower() == "done":
+            go = False
+        # use mod operator to check if div by 9
+        elif int(usr_in) % 9 == 0:
+            usr_sum += int(usr_in)
+        else:
+            print("num not div by 9")
+    # return rather than print answer
+    return usr_sum
+
+sum_nines()
+            
+```
+
+
+```{python}
+
+def num_nines():
+    total=0
+    x=1
+    while x>=0:
+        x=int(input("Input a number. input -1 to end program"))
+        if x%9==0:
+            #if you can divide by 9 with no remainder, add it to total
+            total+=x
+    return total
+
+print(num_nines())
+```
+
+```{python}
+
+def sum_nines():
+#defining the functionw ith no parameters
+    
+    keep_playing = "y"
+    #initalizing a variable that will hold if the user wants to keep enterig
+    #numbers
+    
+    total = 0
+    #initializing the accumulator variable that will sum the multiples of nines
+    
+    while keep_playing[0] == "y":
+    #as long as the user wants to play:
+        
+        user_input = int(input("Please enter a number: "))
+        #ask the user the number they want to enter and save in a variable
+        
+        if user_input % 9 == 0:
+        #if the user enters a multipe of 9:
+            
+            total += user_input
+            #add that number tot the total 
+        keep_playing = input("Would you like to enter a number? Type y or n: ")
+        #asking if the user wants to play again
+        
+    print("Thanks for playing!")
+    #When the user is done playing display this exit message
+    
+    return total
+    #returning the total 
+
+###BEGIN TESTING
+
+print(sum_nines())
+```
+
+
+```{python}
+
+def sum_nines():
+    #Function will ask the user for input and how to end the program
+    #Check whether the input is a number that is a multiple of 9
+    #add mulitples of 9 to running total
+    #return total
+
+    total = 0
+    user_input= ""
+
+    print("Enter a number to check whether it is a multiple of 9 or not.")
+    print("Type 'q' to quit the program and see the total")
+
+    while user_input != "q":
+        user_input= input("Enter a number to check whether it is a multiple of 9 or not")
+        number = int(user_input)
+        if number % 9 ==0:
+            total = total+number
+            print(number, "is a multiple of 9! Added to total.")
+        else:
+            print(number, "is NOT a multiple of 9.")
+    else:
+        print("Please enter a number or 'q' to quit.")
+    
+    return total 
+
+    
+###BEGIN TESTING 
+
+    
+
+result = sum_nines()
+```
+
+
+
+
+
+# Write a function that makes lists alliterative
+
+* the function should:
+    + take a lists of words and a character as parameters
+    + return a new list only containing words that start with the character
+    + be robust to edge cases (empty lists, maybe lists without strings)
+    + optionally alter the function to take an ASCII value instead of a char
+
+* start with the most simple working version, then add complexities
+
+* this activity should take around 15 mins
+
+
+```{python}
+# Georgia Doing
+# Practice Problem 2 for Practical Exam 2
+
+def al_list(alist, achar):
+    # filter lists of words to be alliterative
+    # param alist: a list of words/strings
+    # param achar: a character for selection
+    new_list = []
+    for word in alist:
+        if not type(word) == type("anystring"):
+            print("skipping item", word)
+        else:
+            if word[0] == achar:
+                new_list.append(word)
+    return new_list
+
+print(al_list(["ginny","georgia","dog","goose",5],"g"))
+```
+
+
+```{python}
+
+def al_list(item,word_list):
+    """ this fucntion takes a word list and item as peramiters
+    it then isolates each word in the list and checks to see if
+    the first letter is the same as the item. if it is it saves
+    it to  new list"""
+    # here we definine the new empty list that will be saved to
+    new_list = []
+    # here we are gonna check for an empty list
+    if word_list == []:
+        print("that list was empty and wont work")
+        return none
+    #here is the for loop that isolates each word in the string
+    for word in word_list:
+        # we first make sure that anything in that string is an int
+        string_word = str(word)
+        # then we pick out the first letter of the word
+        first_letter = word[:1]
+        # we then check if that first letter is the same as we are given
+        if first_letter == item:
+            # if it is we apend the word list
+            new_list.append(word)
+    print(new_list)
+
+        
+### BEGIN TESTING
+
+x = ["apple","tree","pinaple","already"]
+
+al_list("a",x)
+```
+
+
+```{python}
+
+def al_lists(list_of_words,ch):
+    '''al_lists takes parameters list_of_words and ch, using them to make lists alliterative'''
+    
+    length=len(list_of_words)
+
+    al_list=[]
+
+    #accounts for empty word_list
+    if length==0:
+        return al_list
+
+    #this for loop checks each word in a word list to see if the ch is the first letter
+    for line in range (0,length):
+        
+        if ch in list_of_words[line][0]:
+
+            #adds this word to al_list
+            al_list.extend(list_of_words[line])
+
+    return al_list
+
+###BEGIN TESTING###
+
+#example
+word_list=[["brain"],["barber"],["crop"]]
+
+print(al_lists(word_list,"b"))
+```
+
+
+```{python}
+
+def al_lists(thelist, char):
+    new_list = []
+    for word in thelist:
+        split_word = list(word)
+        if split_word[0] == char:
+            new_list.extend([word])
+            
+    
+            
+    return new_list
+
+###BEGIN TESTING
+
+mylist = ["hair", "corn", "helmet", "cake", "home"]
+
+print(al_lists(mylist, "h"))
+
+print(al_lists(mylist, "c"))
+```
+
+```{python}
+
+def al_lists(your_list,character):
+    new_list=[]
+    for word in your_list:
+        if word[0]== character:
+            new_list.append(word)
+        print(new_list)
+    return new_list
+
+##BEGIN TESTING
+
+my_list=["cool","chill","cold","yes"]
+al_lists(my_list,"c")
+```
+
+
+
+
+
+# Change the function above to take an ascii value instead of a character
+
+* the function should:
+    + take a lists of words and an integer as parameters
+    + return a new list only containing words that start with the ascii value character
+
+* start with the most simple working version, then add complexities
+
+* this activity should take around 5 mins
+
+
+```{python}
+# Georgia Doing
+# Practice Problem 3 for Practical Exam 2
+
+def ascii_lists(alist, val):
+    # filter lists of words to be alliterative
+    # param alist: a list of words/strings
+    # param value: an ascii value for selection
+    # returns list
+
+    new_list = []
+    # check val is valid ascii
+    if val < 0 or val > 255:
+        print("val outside ascii range")
+        return new_list
+    # if val is valid, check against words
+    for word in alist:
+        if not type(word) == type("anystring"):
+            print("skipping item", word)
+        else:
+            # convert from ascii value to character
+            if word[0] == chr(val):
+                new_list.append(word)
+    return new_list
+
+print(ascii_lists(["ginny","georgia","dog","goose",5],ord("g")))
+```
+
+
+
+```{python}
+
+def ascii_lists(word_list, ascii_value):
+    """take a word list (parameter 1) and an integer (parameter 2) and
+        return a new list only containing words starting with the ascii value character"""
+    # if the word list is empty, return None
+    if word_list == []:
+        return None
+    # make a copy of the word list
+    words = word_list.copy()
+    # otherwise, create a new empty list
+    new_list = []
+    character = chr(ascii_value)
+    # traverse through each element in the word list
+    for element in words:
+        # if the element is a list, delete the element (it is not a string)
+        if element is list:
+            del element
+        # otherwise:
+        else:
+            # convert the element to a string (it could be int or bool)
+            element = str(element)
+            # if the first character in the element is the same as the character (parameter 2)
+            if element[0] == character:
+                # append the element to the new list
+                new_list.append(element)
+
+    # if there are no words in the word list that start with the character, return None
+    if new_list == []:
+        return None
+
+    # return the list of words that start with the ascii value character
+    return new_list
+
+
+### BEGIN TESTING
+
+words = ['apple', 'potato', 'arugula', 'armenia', [1, 2, 3], ['apple', 'potato'], True, False]
+ascii_a = ord('a')
+ascii_p = ord('p')
+print(ascii_lists([], ascii_a))
+print(ascii_lists(words, ascii_a))
+print(ascii_lists(words, ascii_p))
+print(ascii_lists(words, 60))
+
+```
+
+
+# Write a program that helps the user study
+
+* the program should:
+    + initiate a dictionary of CSC106 topics and in-class activities
+    + name activities based on their week
+    + decide what info will be keys and what will be values
+    + decide if you need to use strings, lists, nested lists, nested dictioanries, etc.
+    + include a function that looks up activities based on a topic
+    + optionally include information on whether you completed each activity
+    + optionally include descriptions of each activity
+
+* this activity should take around 20 mins
+
+
+* W2-2 : for loops, input
+* W2-3 : memory diagrams and tracing
+
+* W3-3 : math facts
+* W3-4 : conditionals
+
+* W4-1 : multi-branch conditionals (Reeborg)
+* W4-2 : conditionals
+
+* W5-1 : while loops
+* W5-2 : ASCII
+
+* W6-1 : lists and strings
+* W6-2 : Caesar cipher, strings
+* W6-3 : lists, numbers and strings
+
+* W7-1 : lists of numbers
+* W7-2 : nested lists
+* W7-3 : dictionaries and lists
+
+* W8-1 : reading/writing files
+* W8-2 : dictionaries for translation
+* W8-3 : author identification
+
+
+```{python}
+# Georgia Doing
+# Practice Problem 4 for Practical Exam 2
+
+study_guide = {
+    "W2-2" : "for loops",
+    "W2-3" : "memory diagrams" ,
+    "W3-3" : "math",
+    "W3-4" : "conditionals",
+    "W4-1" : "conditionals",
+    "W4-2" : "conditionals",
+    "W5-1" : "while loops",
+    "W5-2" : "ASCII",
+    "W6-1" : "strings",
+    "W6-2" : "strings",
+    "W6-3" : "strings",
+    "W7-1" : "lists",
+    "W7-2" : "lists",
+    "W7-3" : "dictionaries",
+    "W8-1" : "files",
+    "W8-2" : "dictionaries",
+    "W8-3" : "dictionaries"
+}
+
+
+def study_tool(topic):
+    if not topic in study_guide.values():
+        print("topic not covered, maybe take CSCS120!")
+        print("browse: ", study_guide.keys())
+        return
+    
+    for k, v in study_guide.items():
+        if v == topic:
+            print(k)
+
+study_tool("lists")
+
+```
+
+
+
+```{python}
+# Georgia Doing
+# Practice Problem 2 with options for Practical Exam 2
+
+study_guide = {
+    "W2-2" : {"topic": "for loops", "description" :"variables, arithmetics, printing", "completed":True},
+    "W2-3" : {"topic": "memory diagrams" , "description" :"tracing, degugging loops", "completed":True},
+    "W3-3" : {"topic": "math", "description" : "math operators, check even", "completed":True},
+    "W3-4" : {"topic": "conditionals", "description" :"if/elif/else, conversions, calculators", "completed":True},
+    "W4-1" : {"topic": "conditionals", "description" :"multi-branch if statements, logical operators", "completed":True},
+    "W4-2" : {"topic": "conditionals", "description" :"largest number, congress, leap years, dice", "completed":True},
+    "W5-1" : {"topic": "while loops", "description" : "tracing, summing numbers", "completed":True},
+    "W5-2" : {"topic": "ASCII", "description" :"ASCII to string and back, pig latin", "completed":True},
+    "W6-1" : {"topic": "lists", "description" :"list tracing and operations, string manipulation", "completed":True},
+    "W6-2" : {"topic": "strings", "description" :"Caesar cipher", "completed":True},
+    "W6-3" : {"topic": "strings", "description" :"lists of numbers and strings, cord count, variance", "completed":True},
+    "W7-1" : {"topic": "lists", "description" :"list micro programs, minimum", "completed":True},
+    "W7-2" : {"topic": "lists", "description" :"Nested lists (2D), row and column sums", "completed":True},
+    "W7-3" : {"topic": "dictionaries", "description" :"phone book, votes, records, word counts, accounts", "completed":True},
+    "W8-1" : {"topic": "files", "description" :"describe data, make randoms", "completed":True},
+    "W8-2" : {"topic": "dictionaries", "description" :"english-german translation", "completed":True},
+    "W8-3" : {"topic": "dictionaries", "description" :"author identification", "completed":True}
+}
+
+
+def study_tool(topic):
+    all_topics = []
+    for d in study_guide.values():
+        all_topics.append(d["topic"])
+    if not topic in all_topics:
+        print("topic not covered, maybe take CSCS120!")
+        print("browse: ", study_guide.keys())
+        return
+    
+    for k, v in study_guide.items():
+        if v["topic"] == topic:
+            print(k)
+            print(v["description"])
+            print("completed: ", v["completed"])
+
+study_tool("lists")
+
+```
+
+
+
+```{python}
+
+def study_tool():
+    csc106= { 'for loops': 'W2-2',
+              'input': 'W2-2',
+              'memory diagrams':'W2-3',
+              'tracing' : 'W2-3',
+              'math facts' : 'W3-3',
+              'conditionals' : ['W3-4', 'W4-2'],
+              'Reeborg' : 'W4-1',
+              'while loops': 'W5-1',
+              'ASCII' : 'W5-2',
+              'lists' : 'W6-1',
+              'strings' : ['W6-1', 'W6-2', 'W6-3'],
+              'Ceasar cipher' : 'W6-2'
+              }
+    topic=input("What topic do you want the activities for?")
+    topic=topic.lower()
+
+    if topic in csc106:
+        return csc106[topic]
+
+
+print(study_tool())
+              
+```
+
+
+
+```{python}
+
+# { topic:[day,complete,discription]}
+def study_tool():
+
+    """ this is a study tool that asks a user for what they want to review then pulls acording to that inpu"""
+    
+    #I cut this short but can go longer
+    topics = {"for loop":["W2-2.1","complete","for loops go through a set of codes for an amount of time"],
+              "input" :["W2-2.2","complete","it prints something and gets a users responce"],
+              "memory diagrams" :["W2-3","complete","how we can trace out our work"]}
+
+    print("I am here to help you review, will print out a list of topics for possible review")
+    print (" Do you have a topic that you want to study or did you miss a class?")
+    topic_or_class = input("if it a topic type T if it is a class type C")
+
+    if topic_or_class == "T":
+        print ("you want to study based upon topic. I will give you the topics to pick from")
+        print("Please type it out exsactly as it is printed")
+        for keys in topics:
+            print(keys)
+        review = input("what would you like to review?")
+    elif topic_or_class == "C":
+        print("you want to review based on class please tell me the class you want to review from your options below")
+        for keys in topics:
+            print(topics[keys][0])
+        week_day = input("what class did you miss")
+        for keys in topics:
+            if topics[keys][0] == week_day:
+                review = keys
+    else:
+        print("that was not one of the options")
+    
+
+    for keys in topics:
+        if review == keys:
+            print("you wanted to review", keys)
+            print("that topic was done on", topics[keys][0])
+            print("you marked that the work was", topics[keys][1])
+            print("the basics of",keys,"is", topics[keys][2])
+            
+
+### BEGIN TESTING
+
+study_tool()
+    
+```

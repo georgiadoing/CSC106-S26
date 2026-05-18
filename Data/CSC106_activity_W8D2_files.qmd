@@ -1,0 +1,55 @@
+---
+title: CSC 106 Can Computers Think?, Week 8 Day 2 (0.25 pts for engagement)
+date: May, 20, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# Files I/O
+
+Begin the following as paired-programming in class, but be sure to individually finish any problems you don't get to (hand in written answers of **0.25 engagement points**, check website for due date). Take a look at Runestone Ch. 8 for relevent reading and practice.
+
+Download the starter file `random_numbers.txt` from the course website.
+
+1.	Write a function called `describe_data` that takes the name of a text file containing some data in the form of one number per line (for example, the `random_numbers.txt` file you’ve just downloaded) and prints out the following information about the data:
+
+```
+the filename
+how many data points the file contains
+the average
+the minimum
+the maximum
+```
+
+
+2.	The output produced by `describe_data` should have the following format. The exact values for the filename, number of data points, average, minimum, and maximum will vary depending on the data file being read. Feel free to use built-in list or string methods for this assignment.
+
+```
+file: some_data_file.txt
+N: 100000
+Average: 50.0494
+Min: 1
+Max: 100
+```
+
+3.	Create a new function `make_randoms` with three parameters: the number of random numbers to generate, the smallest number to generate, and the largest number to generate. The function should write the specified number of randomly numbers to a file called `new_random_numbers.txt` with one number printed per line.
+
+
+**Prompt: Does the ability to use files change your opinion on whether computers can think? Does having long-term memory affect how humans can think?**

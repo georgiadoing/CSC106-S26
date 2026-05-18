@@ -1,0 +1,85 @@
+---
+title: CSC 106 Can Computers Think?, Week 10 Day 1 (0.25 pts for engagement)
+date: June, 1, 2026
+eval: true
+format: 
+    pdf:
+        number-sections: false
+        shift-heading-level-by: 2
+        geometry:
+            - top=1in
+            - right=.8in
+            - bottom=1in
+            - left=.8in
+        mainfont: "Avenir"
+        sansfont: "Avenir"
+        code-line-numbers: true
+        include-in-header: 
+            - ../preamble2.tex
+
+---
+
+NAME(S):  
+
+
+# Searching with Recursion
+
+Begin the following as paired-programming in class, but be sure to individually finish any problems you don't get to (hand in written answers of **0.25 engagement points**, check website for due date). 
+
+
+
+# 1. Write the base case and the recursive step to search for a number in a sorted list of numbers
+
+
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+# 2. Write a recursive algorithm for binary search
+
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+………………………………………………………………………………………………
+
+
+
