@@ -14,7 +14,7 @@
     "href": "index.html#announcements",
     "title": "Course: CSC106 Can Computers Think?",
     "section": "Announcements",
-    "text": "Announcements\nProject 4 due Monday 6/1/26\n\n10% of total course grade\nwill need to use Python documentation\nwill be easier after doing texbook reading/exercises\n\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nMonday 3:00 pm - 4:00 pm\nThursday 2:00 pm - 4:00 pm\nsubject to change, check course website for most up-to-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
+    "text": "Announcements\nProject 4 due tonight Monday 6/1/26\n\n10% of total course grade\nwill need to use Python documentation\nwill be easier after doing texbook reading/exercises\n\nFinal Exam\n\nfinal is scheduled for Wed 6/9 2:30 - 3:30 pm in Olin 107\nyou may also take it Friday 6/5 from 5-7 pm in Olin 107\n\n\nOffice Hours\n\nStudent/Office Hours:\n\nSteinmetz 108B\nMonday 3:00 pm - 4:00 pm\nThursday 2:00 pm - 4:00 pm\nsubject to change, check course website for most up-to-date schedule\ndrop-in or schedule a 15 minute slot: https://calendar.app.google/8bus6pfDvyphR9ar5\nby appointment for another time or over zoom",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
@@ -437,7 +437,7 @@
     "href": "04-Notes/week9.html",
     "title": "Week 9",
     "section": "",
-    "text": "In-class activities for week 9\n\nMon: Author ID\n\nalso due: Last week’s practice Problems\n\nAuthor ID part 1\nauthor_identification.py\nstate-union-gwbush-minus-2006.txt\nstate-union-obama-minus-2014.txt\n\nWed: Author ID cont.\n\nAuthor ID part 1\nmystery1.txt\nmystery2.txt\nmystery3.txt\n\nThurs: Recursion\n\nReal-world recursion\n\nFri: Recursion cont.\n\nMathematical recursion",
+    "text": "In-class activities for week 9\n\nMon: Author ID\n\nalso due: Last week’s practice Problems\n\nAuthor ID part 1\nauthor_identification.py\nstate-union-gwbush-minus-2006.txt\nstate-union-obama-minus-2014.txt\n\nWed: Author ID cont.\n\nAuthor ID part 2\nmystery1.txt\nmystery2.txt\nmystery3.txt\n\nThurs: Recursion\n\nReal-world recursion\n\nFri: Recursion cont.\n\nMathematical recursion",
     "crumbs": [
       "Weekly Notes",
       "<span class='chapter-number'>27</span>  <span class='chapter-title'>Week 9</span>"
@@ -448,7 +448,7 @@
     "href": "04-Notes/week10.html",
     "title": "Week 10",
     "section": "",
-    "text": "In-class activities for week 10\n\nMon: Sorting / Searching\n\nalso due: Last week’s practice Problems\n\nSearching with recursion\n\nWed:\nThurs: Review\n\nalso course evals\n\nFri:",
+    "text": "In-class activities for week 10\n\nMon: Sorting / Searching\n\nalso due: Last week’s practice Problems\n\nSearching with recursion\nsorting game\n\nWed:\n\nreview for the final\ncolor-coded engagement sheet\n\nThurs: Review\n\ncontinue to review for the final\nalso course evals\n\nFri:\n\ncontinue to review for the final",
     "crumbs": [
       "Weekly Notes",
       "<span class='chapter-number'>28</span>  <span class='chapter-title'>Week 10</span>"
